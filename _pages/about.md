@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I'm a first-year Ph.D. student in the Department of Computing (COMP) at Hong Kong Polytechnic University (PolyU). I am fortunately advised by under the supervision of Prof. Qing LI<a href='https://www4.comp.polyu.edu.hk/~csqli/'> and <a href='https://wenqifan03.github.io'>Dr. Wenqi Fan. Before that, I received both of my bachelor and master degree from Shandong University and Nanjing Univeristy.
+I'm a first-year Ph.D. student in the Department of Computing (COMP) at Hong Kong Polytechnic University (PolyU). I am fortunately advised by under the supervision of Prof. <a href='https://www4.comp.polyu.edu.hk/~csqli/'>Qing Li and <a href='https://wenqifan03.github.io'>Dr. Wenqi Fan. Before that, I received both of my bachelor and master degree from Shandong University and Nanjing Univeristy.
 
 My research interests are machine learning and optimization, especially large-scale distributed optimization, robust and secure machine leaning, and machine learning on graphs.
 
