@@ -50,13 +50,13 @@ My research interest includes Recommendations (RecSys), Graph Neural Networks (G
 
 
 
-#  Honors and Awards
+# 📝 Honors and Awards
 
 - *2022* Student Travel Grant, SIGIR’2022
 
 - *2020* The 9-th place (733 teams in total) in Tianchi VOS: A Competition of Video Object Segmentation ([website](https://tianchi.aliyun.com/copetition/entrance/531797/introduction))
 
-# Services
+# 📝 Services
 **Conference Sub-Reviewer:**
 - *2022* SIGKDD Conference on Knowledge Discovery and Data Mining (KDD)
 
@@ -68,7 +68,7 @@ My research interest includes Recommendations (RecSys), Graph Neural Networks (G
 
 - *2021* ACM International Conference on Web Search and Data Mining (WSDM)
 
-#  Educations
+# 📝 Educations
 - Ph.D., Computing, Hong Kong Polytechnic University, HongKong, since August, 2022, Advisor: Prof. Qing Li, Dr. Wenqi Fan
 - M.S., Computer Engineering, Nanjing University, Nanjing, *Sept, 2019 - June, 2022*, Advisor: Prof. Yihua Huang, Dr. Guanghui Zhu
 - B.S., Mathematics, Shandong University, Shandong, *Sept, 2015 - June, 2019*
@@ -76,5 +76,5 @@ My research interest includes Recommendations (RecSys), Graph Neural Networks (G
 <!-- #  Invited Talks -->
 
 
-#  Internships
+# 📝 Internships
 - Huawei, Suzhou, *Aug, 2018 - Feb, 2019*
