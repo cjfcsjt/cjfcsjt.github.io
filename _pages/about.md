@@ -41,7 +41,7 @@ My research interest includes Recommendations (RecSys), Graph Neural Networks (G
 # 📝 Ongoing Works
 [Towards Self-supervised Learning on Graphs with Heterophily](https://cjfcsjt.github.io), **Jingfan Chen**, Guanghui Zhu, Yifan Qi, Chunfeng Yuan, Yihua Huang, **pdf coming**
 
-[Semi-supervised Embedding Learning for High-dimensional Bayesian Optimization](https://cjfcsjt.github.io), **Jingfan Chen**, Guanghui Zhu, Qiyi Fan, Chunfeng Yuan, Yihua Huang, **arxiv preprint**
+[Semi-supervised Embedding Learning for High-dimensional Bayesian Optimization](https://cjfcsjt.github.io), **Jingfan Chen**, Guanghui Zhu, Chunfeng Yuan, Yihua Huang, **arxiv preprint**
 
 [Disentangled Contrastive Learning for Social Recommendation](https://cjfcsjt.github.io), Jiahao Wu, Wenqi Fan,  **Jingfan Chen**, Shengcai Liu, Qing Li, Ke Tang **pdf coming**
 
