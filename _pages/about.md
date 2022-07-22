@@ -40,7 +40,7 @@ My research interest includes Recommendations (RecSys), Graph Neural Networks (G
 [AutoGSR: Neural Architecture Search for Graph-based Session Recommendation](https://dl.acm.org/doi/10.1145/3477495.3531940) **Jingfan Chen**, Guanghui Zhu, Haojun Hou, Chunfeng Yuan, Yihua Huang, **SIGIR 2022**
 
 # 📝 Ongoing Works
-[Towards Self-supervised Learning on Graphs with Heterophily](https://cjfcsjt.github.io), **Jingfan Chen**, Guanghui Zhu, Qiyi Fan, Chunfeng Yuan, Yihua Huang, **pdf coming**
+[Towards Self-supervised Learning on Graphs with Heterophily](https://cjfcsjt.github.io), **Jingfan Chen**, Guanghui Zhu, Yifan Qi, Chunfeng Yuan, Yihua Huang, **pdf coming**
 
 [Semi-supervised Embedding Learning for High-dimensional Bayesian Optimization](https://cjfcsjt.github.io), **Jingfan Chen**, Guanghui Zhu, Qiyi Fan, Chunfeng Yuan, Yihua Huang, **arxiv preprint**
 
