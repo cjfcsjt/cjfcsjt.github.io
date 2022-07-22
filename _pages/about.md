@@ -17,10 +17,10 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I'm a first-year Ph.D. student in the Department of Computing (COMP) at Hong Kong Polytechnic University (PolyU). I am fortunately advised by under the supervision of <a href='https://www4.comp.polyu.edu.hk/~csqli/'>Prof. Qing Li</a> and <a href='https://wenqifan03.github.io'>Dr. Wenqi Fan</a>. Before that, I received both of my bachelor and master degree from Shandong University and Nanjing Univeristy.
+I'm a first-year Ph.D. student in the Department of Computing (COMP) at Hong Kong Polytechnic University (PolyU). I am fortunately advised by under the supervision of <a href='https://www4.comp.polyu.edu.hk/~csqli/'>Prof. Qing Li</a> and <a href='https://wenqifan03.github.io'>Dr. Wenqi Fan</a>. Before that, I received my bachelor and master degree from Shandong University and Nanjing Univeristy, respectively.
 
 
-My research interest includes Recommendations (RecSys), Graph Neural Networks (GNNs), Trustworthy AI and Bayesian optimization. I have published more than 2 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
+My research interest includes Recommendations (RecSys), Graph Neural Networks (GNNs), Trustworthy AI and Bayesian optimization. I have published more than 2 papers <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a> at the top international AI conferences such as KDD, SIGIR.
   
 <!--   
 <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>). -->
@@ -37,7 +37,7 @@ My research interest includes Recommendations (RecSys), Graph Neural Networks (G
 
 [Knowledge-enhanced Black-box Attacks for Recommendations](https://arxiv.org/abs/2207.10307), **Jingfan Chen**, Wenqi Fan, Guanghui Zhu, Xiangyu Zhao, Chunfeng Yuan, Qing Li, Yihua Huang, **KDD 2022**
   
-[AutoGSR: Neural Architecture Search for Graph-based Session Recommendation](https://dl.acm.org/doi/10.1145/3477495.3531940) **Jingfan Chen**, Guanghui Zhu, Haojun Hou, Chunfeng Yuan, Yihua Huang, **SIGIR 2022**
+[AutoGSR: Neural Architecture Search for Graph-based Session Recommendation](https://dl.acm.org/doi/10.1145/3477495.3531940), **Jingfan Chen**, Guanghui Zhu, Haojun Hou, Chunfeng Yuan, Yihua Huang, **SIGIR 2022**
 
 # 📝 Ongoing Works
 [Towards Self-supervised Learning on Graphs with Heterophily](https://cjfcsjt.github.io), **Jingfan Chen**, Guanghui Zhu, Yifan Qi, Chunfeng Yuan, Yihua Huang, **pdf coming**
