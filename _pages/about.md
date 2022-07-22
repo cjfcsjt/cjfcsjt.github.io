@@ -32,7 +32,7 @@ My research interest includes Recommendations (RecSys), Graph Neural Networks (G
 <!-- <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1"> -->
 
-[Knowledge-enhanced Black-box Attacks for Recommendations](https://cjfcsjt.github.io), **Jingfan Chen**, Wenqi Fan, Guanghui Zhu, Xiangyu Zhao, Chunfeng Yuan, Qing Li, Yihua Huang, **KDD 2022**
+[Knowledge-enhanced Black-box Attacks for Recommendations](https://arxiv.org/abs/2207.10307), **Jingfan Chen**, Wenqi Fan, Guanghui Zhu, Xiangyu Zhao, Chunfeng Yuan, Qing Li, Yihua Huang, **KDD 2022**
   
 [AutoGSR: Neural Architecture Search for Graph-based Session Recommendation](https://dl.acm.org/doi/10.1145/3477495.3531940) **Jingfan Chen**, Guanghui Zhu, Haojun Hou, Chunfeng Yuan, Yihua Huang, **SIGIR 2022**
 
@@ -71,7 +71,7 @@ My research interest includes Recommendations (RecSys), Graph Neural Networks (G
 # 📝 Educations
 - Ph.D., Computing, Hong Kong Polytechnic University, HongKong, since August, 2022, Advisor: Prof. Qing Li, Dr. Wenqi Fan
 - M.S., Computer Engineering, Nanjing University, Nanjing, *Sept, 2019 - June, 2022*, Advisor: Prof. Yihua Huang, Dr. Guanghui Zhu
-- B.S., Mathematics, Shandong University, Shandong, *Sept, 2015 - June, 2019*
+- B.S., Software Engineering, Shandong University, Shandong, *Sept, 2015 - June, 2019*
 
 <!-- #  Invited Talks -->
 
