@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I'm a first-year Ph.D. student in the Department of Computing (COMP) at Hong Kong Polytechnic University (PolyU). I am fortunately advised by under the supervision of <a href='https://www4.comp.polyu.edu.hk/~csqli/'>Prof. Qing Li</a> and <a href='https://wenqifan03.github.io'>Dr. Wenqi Fan</a>. Before that, I received my bachelor and master degree from Shandong University and Nanjing Univeristy, respectively.
+I'm a first-year Ph.D. student in the Department of Computing (COMP) at The Hong Kong Polytechnic University (PolyU). I am fortunately advised by under the supervision of <a href='https://www4.comp.polyu.edu.hk/~csqli/'>Prof. Qing Li</a> and <a href='https://wenqifan03.github.io'>Dr. Wenqi Fan</a>. Before that, I received my bachelor and master degree from Shandong University and Nanjing Univeristy, respectively.
 
 My research interest includes Recommendations (RecSys), Graph Neural Networks (GNNs), Trustworthy AI and Bayesian optimization. I have published more than 2 papers <a href='https://scholar.google.com/citations?user=KSafcUUAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a> at the top international AI conferences such as KDD, SIGIR.
   
