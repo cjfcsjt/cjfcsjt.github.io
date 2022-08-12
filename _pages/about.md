@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I'm a first-year Ph.D. student in the Department of Computing (COMP) at The Hong Kong Polytechnic University (PolyU). I am fortunately advised by <a href='https://www4.comp.polyu.edu.hk/~csqli/'>Prof. Qing Li</a> and <a href='https://wenqifan03.github.io'>Dr. Wenqi Fan</a>. Before that, I received my bachelor and master degree from Shandong University and Nanjing Univeristy, respectively.
+I'm a first-year Ph.D. student in the Department of Computing (COMP) at The Hong Kong Polytechnic University (PolyU). I am fortunately advised by <a href='https://www4.comp.polyu.edu.hk/~csqli/'>Prof. Qing Li</a>(PolyU side), <a href='http://www.cbsr.ia.ac.cn/users/zlei/'>Prof. Zhen Lei</a>(CAS side) and <a href='https://wenqifan03.github.io'>Dr. Wenqi Fan</a>. Before that, I received my bachelor and master degree from Shandong University and Nanjing Univeristy, respectively.
 
 My research interest includes Recommendations (RecSys), Graph Neural Networks (GNNs), Trustworthy AI and Bayesian optimization. I have published more than 2 papers <a href='https://scholar.google.com/citations?user=KSafcUUAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a> at the top international AI conferences such as KDD, SIGIR.
   
@@ -75,7 +75,7 @@ My research interest includes Recommendations (RecSys), Graph Neural Networks (G
 - *2021* ACM International Conference on Web Search and Data Mining (WSDM)
 
 # 📝 Educations
-- Ph.D., Computing, Hong Kong Polytechnic University, HongKong, since August, 2022, Advisor: Prof. Qing Li, Dr. Wenqi Fan
+- Ph.D., Computing, Hong Kong Polytechnic University, HongKong, since August, 2022, Advisor: Prof. Qing Li, Prof. Zhen Lei, Dr. Wenqi Fan
 - M.S., Computer Engineering, Nanjing University, Nanjing, *Sept, 2019 - June, 2022*, Advisor: Prof. Yihua Huang, Dr. Guanghui Zhu
 - B.S., Software Engineering, Shandong University, Shandong, *Sept, 2015 - June, 2019*
 
