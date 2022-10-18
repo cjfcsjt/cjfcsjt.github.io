@@ -36,9 +36,9 @@ My research interest includes Recommendations (RecSys), Graph Neural Networks (G
 <!-- <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1"> -->
 
-[Towards Self-supervised Learning on Graphs with Heterophily](https://cjfcsjt.github.io), **Jingfan Chen**, Guanghui Zhu, Yifan Qi, Chunfeng Yuan, Yihua Huang, **CIKM 2022**
+[Towards Self-supervised Learning on Graphs with Heterophily](https://dl.acm.org/doi/10.1145/3511808.3557478), **Jingfan Chen**, Guanghui Zhu, Yifan Qi, Chunfeng Yuan, Yihua Huang, **CIKM 2022** [[Code]](https://github.com/yifanQi98/HGRL)
 
-[Disentangled Contrastive Learning for Social Recommendation](https://cjfcsjt.github.io), Jiahao Wu, Wenqi Fan,  **Jingfan Chen**, Shengcai Liu, Qing Li, Ke Tang, **CIKM 2022**
+[Disentangled Contrastive Learning for Social Recommendation](https://dl.acm.org/doi/10.1145/3511808.3557583), Jiahao Wu, Wenqi Fan,  **Jingfan Chen**, Shengcai Liu, Qing Li, Ke Tang, **CIKM 2022**
 
 [Knowledge-enhanced Black-box Attacks for Recommendations](https://arxiv.org/abs/2207.10307), **Jingfan Chen**, Wenqi Fan, Guanghui Zhu, Xiangyu Zhao, Chunfeng Yuan, Qing Li, Yihua Huang, **KDD 2022**
   
