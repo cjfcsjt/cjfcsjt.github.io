@@ -13,7 +13,6 @@ profile:
       <a href="mailto:jingfan.chen@connect.polyu.hk" title="email"><i class="fa-solid fa-envelope"></i></a>
       <a href="https://scholar.google.com/citations?user=KSafcUUAAAAJ" title="Google Scholar" target="_blank" rel="noopener"><i class="ai ai-google-scholar"></i></a>
       <a href="https://github.com/cjfcsjt" title="GitHub" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i></a>
-      <a href="/cv/" title="CV"><i class="ai ai-cv"></i></a>
     </div>
     <p class="jc-profile-note">jingfan.chen [at] connect.polyu.hk</p>
 
@@ -97,14 +96,14 @@ latest_posts:
 
 I am a Ph.D. student at [The Hong Kong Polytechnic University](https://www.polyu.edu.hk/) (PolyU), advised by [Prof. Qing Li](https://www4.comp.polyu.edu.hk/~csqli/) (IEEE Fellow), [Prof. Zhen Lei](http://www.cbsr.ia.ac.cn/users/zlei/) (IEEE Fellow) and [Prof. Zhaoxiang Zhang](https://zhaoxiangzhang.net/). Before that, I received my M.S. in Computer Science from Nanjing University under the supervision of Prof. Yihua Huang, and my B.S. in Software Engineering from Shandong University. I have also been a research intern on the post-training team at [Shanghai AI Laboratory](https://www.shlab.org.cn/) and at Tencent Game AI Lab.
 
-My research focuses on **recursive self-improvement (RSI)**: AI systems that improve not only how they solve tasks, but also the process that produces their improvements, so that each later round of improvement is more effective. I follow one line of work from **RSI** itself, to **code** as the substrate that lets an improver modify, attribute and verify its own changes, to **applications** in GUI agents, multimodal reasoning and long-horizon search, where the loop meets real environments. Most of my methods are built on on-policy reinforcement learning. For more, see my [CV](/cv/).
+My research focuses on **recursive self-improvement (RSI) for computer use**: agents that operate real software, and that improve not only how they complete tasks but also the process that produces their improvements, so that each later round of improvement is more effective. I follow one line of work from **RSI** itself, to **code** as the substrate that lets an improver modify, attribute and verify its own changes, to **computer use** as the setting where the loop meets real software. Most of my methods are built on on-policy reinforcement learning.
 
 <div class="jc-flow">
   <a class="jc-step" data-target="rf-rsi" href="#rf-rsi"><span class="jc-num">01</span><strong>Recursive Self-Improvement</strong><small>improve the improver</small></a>
   <span class="jc-flow-arrow" aria-hidden="true">→</span>
   <a class="jc-step" data-target="rf-code" href="#rf-code"><span class="jc-num">02</span><strong>Code as the Substrate</strong><small>target · evidence · verification</small></a>
   <span class="jc-flow-arrow" aria-hidden="true">→</span>
-  <a class="jc-step" data-target="rf-app" href="#rf-app"><span class="jc-num">03</span><strong>Applications</strong><small>GUI agents · multimodal reasoning · search</small></a>
+  <a class="jc-step" data-target="rf-app" href="#rf-app"><span class="jc-num">03</span><strong>Computer Use</strong><small>GUI agents on real software</small></a>
 </div>
 
 <div class="jc-wrap">
@@ -114,12 +113,12 @@ My research focuses on **recursive self-improvement (RSI)**: AI systems that imp
       <div class="jc-body">
         <h4>Research Questions</h4>
         <ul>
-          <li><strong>What</strong> makes self-improvement recursive, rather than a solver updated by a fixed improver?</li>
+          <li><strong>What</strong> makes a computer-use agent's self-improvement recursive, rather than a solver updated by a fixed improver?</li>
           <li><strong>How</strong> can we tell whether an updated improver really makes later rounds of improvement more effective, at the same budget?</li>
         </ul>
         <h4>Representative Works</h4>
         <ul>
-          <li class="jc-ongoing">Ongoing work on improver-level self-modification and how to evaluate it.</li>
+          <li class="jc-ongoing">Ongoing work on improver-level self-modification for computer-use agents and how to evaluate it.</li>
         </ul>
       </div>
     </details>
@@ -129,38 +128,34 @@ My research focuses on **recursive self-improvement (RSI)**: AI systems that imp
         <h4>Research Questions</h4>
         <ul>
           <li><strong>Why</strong> does recursion need code: what makes an improver's own mechanism modifiable, its changes attributable, and its results checkable?</li>
-          <li><strong>How</strong> far can executable checks make verifying a new improver affordable, and where must evidence still come from the environment?</li>
+          <li><strong>How</strong> far can executable checks on software state (UI source, DOM, app state) make verifying a new improver affordable, and where must evidence still come from the live environment?</li>
         </ul>
         <h4>Representative Works</h4>
         <ul>
           <li><a href="https://aclanthology.org/2025.acl-long.510" target="_blank" rel="noopener">AutoGUI: Scaling GUI Grounding with Automatic Functionality Annotations from LLMs</a> <span class="jc-venue">(ACL 2025)</span>: infers what a UI element does from how the UI's source code changes after a simulated interaction.</li>
-          <li class="jc-ongoing">Ongoing work on code as the substrate for recursive self-improvement across digital and physical environments.</li>
+          <li class="jc-ongoing">Ongoing work on code as the substrate for recursive self-improvement.</li>
         </ul>
       </div>
     </details>
     <details class="jc-card" id="rf-app">
-      <summary><span>Applications <small>— where the loop meets real environments</small></span></summary>
+      <summary><span>Computer Use <small>— where the loop meets real software</small></span></summary>
       <div class="jc-body">
         <h4>Research Questions</h4>
         <ul>
-          <li><strong>How</strong> do improvement loops carry over to GUI agents, multimodal reasoning and long-horizon search, where checks are only partly executable?</li>
-          <li><strong>When</strong> is an extra observation or an extra round of supervision worth its cost, and how can an agent spend it only where it is needed?</li>
+          <li><strong>How</strong> does an improvement loop carry over to agents that act on real software, where task success is only partly checkable by code?</li>
+          <li><strong>When</strong> is an extra look at the screen, or an extra round of supervision, worth its cost, and how can an agent spend it only where it is needed?</li>
         </ul>
         <h4>Representative Works</h4>
-        <p class="jc-domain">GUI agents</p>
+        <p class="jc-domain">GUI grounding &amp; interaction</p>
         <ul>
           <li><a href="/publications/#chen2026foveaui">FoveaUI: Foveated On-demand Visual Evidence Acquisition for GUI Grounding</a> <span class="jc-venue">(ACM MM 2026)</span></li>
           <li><a href="https://arxiv.org/abs/2509.17328" target="_blank" rel="noopener">UIPro: Unleashing Superior Interaction Capability For GUI Agents</a> <span class="jc-venue">(ICCV 2025)</span></li>
           <li><a href="https://aclanthology.org/2025.acl-long.510" target="_blank" rel="noopener">AutoGUI: Scaling GUI Grounding with Automatic Functionality Annotations from LLMs</a> <span class="jc-venue">(ACL 2025)</span></li>
         </ul>
-        <p class="jc-domain">Multimodal reasoning</p>
+        <p class="jc-domain">Visual perception &amp; reasoning for agents</p>
         <ul>
           <li><a href="/publications/#chen2026warmup">Warm Up with a Rubric, Then Merge: Decoupling Grounding Gains from Reasoning Costs in Vision-Language Models</a> <span class="jc-venue">(EMNLP 2026)</span></li>
           <li><a href="https://aclanthology.org/2025.acl-long.634" target="_blank" rel="noopener">Activation Steering Decoding: Mitigating Hallucination in Large Vision-Language Models through Bidirectional Hidden State Intervention</a> <span class="jc-venue">(ACL 2025)</span></li>
-        </ul>
-        <p class="jc-domain">Long-horizon search</p>
-        <ul>
-          <li class="jc-ongoing">Ongoing work on agentic RL for deep-search agents.</li>
         </ul>
       </div>
     </details>

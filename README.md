@@ -13,7 +13,6 @@ Live site: <https://cjfcsjt.github.io>
 | Publications                           | `_bibliography/papers.bib` (`selected = {true}` shows it on home)  |
 | Publication teaser images              | `assets/img/publication_preview/` + `preview = {file.png}` in bib  |
 | News                                   | one Markdown file per item in `_news/`                             |
-| CV page                                | `_data/cv.yml`                                                     |
 | Social links (email, Scholar, GitHub)  | `_data/socials.yml`                                                |
 | Venue badge colors                     | `_data/venues.yml`                                                 |
 | Co-author links                        | `_data/coauthors.yml`                                              |
