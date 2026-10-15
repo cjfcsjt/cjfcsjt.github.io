@@ -1,3 +1,11 @@
+"ACM MM":
+  url: https://2026.acmmm.org/
+  color: "#0b6e4f"
+
+"EMNLP":
+  url: https://2026.emnlp.org/
+  color: "#a93226"
+
 "ICCV":
   url: https://iccv.thecvf.com/
   color: "#1f6f8b"

@@ -1,12 +1,13 @@
 cv:
   name: Jingfan Chen
-  label: Ph.D. Student in Computer Science
+  label: Ph.D. Student in Artificial Intelligence
   email: jingfan.chen@connect.polyu.hk
   location: Hong Kong SAR, China
   image: ""
   summary: >-
-    Ph.D. student at The Hong Kong Polytechnic University working on computer-use agents, world models for agents,
-    agentic efficiency and recursive self-improvement.
+    Ph.D. student at The Hong Kong Polytechnic University working on self-improving computer-use agents: GUI grounding
+    and interaction, world models, recursive self-improvement and agentic efficiency, with methods built on on-policy
+    reinforcement learning.
 
   social_networks:
     - network: GitHub
@@ -16,35 +17,37 @@ cv:
     Academic Interests:
       - name: Computer-Use Agents
         icon: fa-solid fa-computer-mouse
-        keywords: "GUI grounding, GUI agents, multimodal LLMs, cross-platform action spaces"
-      - name: World Models for Agents
+        keywords: "GUI grounding, GUI agents, unified action spaces, multimodal LLMs"
+      - name: World Models
         icon: fa-solid fa-globe
-        keywords: "environment dynamics, next-state prediction, imagined rollouts, planning"
+        keywords: "next-state prediction, spatial reasoning, planning with imagined rollouts"
       - name: Recursive Self-Improvement
         icon: fa-solid fa-arrows-rotate
-        keywords: "self-generated tasks and data, self-verification, self-evolving agents"
+        keywords: "on-policy RL, self-generated training signal, reflection and self-revision"
       - name: Agentic Efficiency
         icon: fa-solid fa-gauge-high
-        keywords: "step, token and latency efficiency, test-time compute allocation"
+        keywords: "visual token budgets, verifier cost, test-time compute allocation"
 
     Education:
       - institution: The Hong Kong Polytechnic University
         location: Hong Kong SAR, China
-        area: Computing
+        area: Artificial Intelligence
         studyType: Ph.D.
-        start_date: 2022-08
+        start_date: 2022-09
         end_date: present
         highlights:
-          - "Advisors: Prof. Qing Li, Prof. Zhen Lei and Dr. Wenqi Fan"
+          - "Advisors: Prof. Qing Li (IEEE Fellow), Prof. Zhen Lei (IEEE Fellow), Prof. Zhaoxiang Zhang"
+          - "Research: VLM/LLM reasoning, on-policy reinforcement learning, computer-use agents"
 
       - institution: Nanjing University
         location: Nanjing, China
-        area: Computer Engineering
+        area: Computer Science and Technology
         studyType: M.S.
         start_date: 2019-09
         end_date: 2022-06
         highlights:
-          - "Advisors: Prof. Yihua Huang and Dr. Guanghui Zhu"
+          - "Advisor: Prof. Yihua Huang; admitted without entrance examination"
+          - "GPA 3.8/4.0 (top 5%); Outstanding Master's Thesis; First-Class Scholarship"
 
       - institution: Shandong University
         location: Shandong, China
@@ -52,15 +55,35 @@ cv:
         studyType: B.S.
         start_date: 2015-09
         end_date: 2019-06
+        highlights:
+          - "GPA 3.7/4.0 (top 10%)"
 
     Experience:
-      - company: Huawei
-        position: Intern
-        location: Suzhou, China
-        start_date: 2018-08
-        end_date: 2019-02
+      - company: Tencent, LightSpeed Studios, Game AI Lab
+        position: Research Intern (Qingyun Program)
+        location: China
+        start_date: 2026-01
+        end_date: 2026-05
+        highlights:
+          - "3D-scene QA data synthesis: built a programmatic pipeline on open-source 3D scene assets that automatically labels object positions, orientations, relations and distances."
+          - "Spatial-reasoning post-training: post-trained VLMs on this data, improving object localization, viewpoint transformation and spatial-relation judgment by 8% over the baseline on mainstream benchmarks."
+
+      - company: Shanghai AI Laboratory, Post-training Team
+        position: Research Intern
+        location: Shanghai, China
+        start_date: 2025-02
+        end_date: 2025-10
+        summary: "Team lead: Wenwei Zhang; center lead: Kai Chen. Projects: Long-Horizon Deep Search and Intern-S1."
+        highlights:
+          - "Deep-search agent RL: trained a dense 7B search agent end to end on the fully asynchronous AReaL RL framework, with multi-turn search-reasoning rollouts and rewards; +5% over the baseline on mainstream QA benchmarks."
+          - "Agent framework and trajectory synthesis: rebuilt the multi-turn planning and retrieval logic of MindSearch and set up high-concurrency crawling and asynchronous data synthesis to produce filtered long-horizon trajectories for SFT and RL."
+          - "RL infrastructure: removed redundant full-vocabulary intermediates in log-prob computation, cutting peak memory by 70%, extending per-GPU context from 8K to 32K and raising rollout throughput by 30%."
+          - "Intern-S1: built a scientific QA benchmark from PubChem and UniProt with cross-database entity alignment and expert review, and a semi-automatic quality-check pipeline for annotated math data."
 
     Awards:
+      - title: Outstanding Master's Thesis, Nanjing University
+        awarder: Nanjing University
+
       - title: SIGIR 2022 Student Travel Grant
         date: 2022
         awarder: ACM SIGIR
@@ -68,6 +91,9 @@ cv:
       - title: 9th place (out of 733 teams), Tianchi Video Object Segmentation Challenge
         date: 2020
         awarder: Alibaba Tianchi
+
+      - title: First-Class Scholarship, Nanjing University
+        awarder: Nanjing University
 
     Service:
       - label: Conference sub-reviewer

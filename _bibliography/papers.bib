@@ -1,17 +1,45 @@
 ---
 ---
 
+@inproceedings{chen2026foveaui,
+  abbr              = {ACM MM},
+  bibtex_show       = {true},
+  title             = {FoveaUI: Foveated On-demand Visual Evidence Acquisition for GUI Grounding},
+  author            = {Chen, Jingfan and Wang, Lin and Li, Qing},
+  booktitle         = {Proceedings of the 34th ACM International Conference on Multimedia},
+  year              = {2026},
+  abstract          = {GUI grounding requires precise identification of interface elements from high-resolution screenshots, but processing dense visual inputs with large vision-language models incurs substantial computational overhead. Existing visual token compression methods typically allocate a fixed budget, ignoring the large variability of visual redundancy across different GUI layouts. We show that a fixed visual budget is suboptimal, as the necessity of high-resolution visual evidence varies substantially across interface contexts. We propose FoveaUI, a dynamic high-resolution budget allocation framework for GUI grounding. The agent first reasons over a low-resolution global view and selectively requests high-resolution crops only when fine-grained evidence is required. FoveaUI introduces three coordinated components that progressively address when to seek high-resolution detail, where to acquire it, and how to leverage it effectively: a balanced training strategy for on-demand resolution allocation, a mix-tool strategy paired with a smooth process-level reward for region and granularity selection, and locality-prioritized attention masking for efficient utilization of acquired high-resolution information. Experiments on GUI grounding benchmarks show that our method maintains strong grounding performance while substantially reducing high-resolution visual token costs.},
+  preview           = {foveaui.jpg},
+  selected          = {true}
+}
+
+@inproceedings{chen2026warmup,
+  abbr              = {EMNLP},
+  bibtex_show       = {true},
+  title             = {Warm Up with a Rubric, Then Merge: Decoupling Grounding Gains from Reasoning Costs in Vision-Language Models},
+  author            = {Chen, Jingfan and Wang, Lin and Su, Jingran and Li†, Qing},
+  booktitle         = {Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing},
+  year              = {2026},
+  abstract          = {Process supervision improves perceptual grounding in RLVR-trained vision-language models, but it also incurs repeated verifier queries and reshapes the policy by suppressing exploratory entropy. We show that its benefit and cost are empirically separable: grounding gains emerge early, whereas the exploration cost accumulates with continued supervision, holding the policy's entropy below that of outcome-only RLVR. This hidden behavioral cost shows up as skill tradeoffs on static benchmarks and, more importantly, as a degraded initialization for subsequent outcome-only RLVR that prematurely limits its reachable ceiling. Motivated by this asymmetry, we propose warmup-and-merge: early-stop the process-supervised warmup, merge only a low-rank component of the warmup task vector into the base model, and continue with outcome-only RLVR under an adaptive on-policy reward that targets the model's current perceptual failures. Across multiple benchmarks and backbones, our method improves perception while preserving exploration, achieving stronger final performance at a fraction of the verifier cost of continuous process supervision.},
+  annotation        = {† Corresponding author},
+  preview           = {warmup_merge.jpg},
+  selected          = {true}
+}
+
 @inproceedings{li2025uipro,
   abbr              = {ICCV},
   bibtex_show       = {true},
   title             = {UIPro: Unleashing Superior Interaction Capability For GUI Agents},
-  author            = {Li, Hongxin and Su, Jingran and Chen, Jingfan and Ju, Zheng and Chen, Yuntao and Li, Qing and Zhang, Zhaoxiang},
+  author            = {Li, Hongxin and Su, Jingran and Chen, Jingfan and Ju, Zheng and Chen†, Yuntao and Li, Qing and Zhang†, Zhaoxiang},
   booktitle         = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
   pages             = {1613--1623},
   year              = {2025},
   abstract          = {A generalist GUI agent pre-trained on about 20.6 million GUI understanding tasks to strengthen element grounding, then fine-tuned on a unified dataset that maps heterogeneous action formats into one shared action space, with strong results across GUI agent benchmarks on multiple platforms.},
+  annotation        = {† Corresponding author},
   arxiv             = {2509.17328},
+  code              = {https://github.com/ZJULiHongxin/UIPro},
   google_scholar_id = {YsMSGLbcyi4C},
+  preview           = {uipro.jpg},
   selected          = {true}
 }
 
@@ -19,14 +47,16 @@
   abbr              = {ACL},
   bibtex_show       = {true},
   title             = {AutoGUI: Scaling GUI Grounding with Automatic Functionality Annotations from LLMs},
-  author            = {Li, Hongxin and Chen, Jingfan and Su, Jingran and Chen, Yuntao and Li, Qing and Zhang, Zhaoxiang},
+  author            = {Li*, Hongxin and Chen*, Jingfan and Su*, Jingran and Chen†, Yuntao and Li, Qing and Zhang†, Zhaoxiang},
   booktitle         = {Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)},
   year              = {2025},
   abstract          = {An automatic pipeline that uses LLMs to annotate what UI elements do by observing how the interface changes after simulated interactions, with LLM-based rejection and verification to filter noisy labels. The resulting AutoGUI-704k dataset improves GUI grounding of vision-language models and scales with data size.},
+  annotation        = {* Equal contribution, † Corresponding author},
   html              = {https://aclanthology.org/2025.acl-long.510},
   arxiv             = {2502.01977},
   website           = {https://autogui-project.github.io/},
   google_scholar_id = {W7OEmFMy1HYC},
+  preview           = {autogui.jpg},
   selected          = {true}
 }
 
@@ -34,15 +64,17 @@
   abbr              = {ACL},
   bibtex_show       = {true},
   title             = {Activation Steering Decoding: Mitigating Hallucination in Large Vision-Language Models through Bidirectional Hidden State Intervention},
-  author            = {Su, Jingran and Chen, Jingfan and Li, Hongxin and Chen, Yuntao and Li, Qing and Zhang, Zhaoxiang},
+  author            = {Su*, Jingran and Chen*, Jingfan and Li*, Hongxin and Chen†, Yuntao and Li†, Qing and Zhang†, Zhaoxiang},
   booktitle         = {Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)},
   pages             = {12964--12974},
   year              = {2025},
   doi               = {10.18653/v1/2025.acl-long.634},
   abstract          = {A training-free decoding method that identifies hallucination-related directions in the hidden states of large vision-language models from a small calibration set and steers generation away from them with contrastive decoding.},
+  annotation        = {* Equal contribution, † Corresponding author},
   html              = {https://aclanthology.org/2025.acl-long.634},
   pdf               = {https://aclanthology.org/2025.acl-long.634.pdf},
   google_scholar_id = {eQOLeE2rZwMC},
+  preview           = {asd.jpg},
   selected          = {true}
 }
 
@@ -114,8 +146,11 @@
   booktitle         = {Proceedings of the 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining},
   year              = {2022},
   doi               = {10.1145/3534678.3539359},
+  abstract          = {KGAttack, a black-box attack on recommender systems that uses knowledge graphs to enhance the state representation and candidate selection of a hierarchical reinforcement-learning attacker, which generates fake user profiles under a limited query budget.},
   arxiv             = {2207.10307},
-  google_scholar_id = {qjMakFHDy7sC}
+  google_scholar_id = {qjMakFHDy7sC},
+  preview           = {kgattack.jpg},
+  selected          = {true}
 }
 
 @inproceedings{chen2022autogsr,
