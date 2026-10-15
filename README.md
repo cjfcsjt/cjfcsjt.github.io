@@ -6,18 +6,18 @@ Live site: <https://cjfcsjt.github.io>
 
 ## Where to edit things
 
-| What                                    | File                                                                |
-| --------------------------------------- | ------------------------------------------------------------------- |
-| Bio and research interests (home page)  | `_pages/about.md`                                                   |
-| Profile photo                           | `assets/img/prof_pic.jpg` (replace the placeholder, keep the name)  |
-| Publications                            | `_bibliography/papers.bib` (`selected = {true}` shows it on home)   |
-| Publication teaser images               | `assets/img/publication_preview/` + `preview = {file.png}` in bib   |
-| News                                    | one Markdown file per item in `_news/`                              |
-| CV page                                 | `_data/cv.yml`                                                      |
-| Social links (email, Scholar, GitHub)   | `_data/socials.yml`                                                 |
-| Venue badge colors                      | `_data/venues.yml`                                                  |
-| Co-author links                         | `_data/coauthors.yml`                                               |
-| Site-wide settings                      | `_config.yml`                                                       |
+| What                                   | File                                                               |
+| -------------------------------------- | ------------------------------------------------------------------ |
+| Bio and research interests (home page) | `_pages/about.md`                                                  |
+| Profile photo                          | `assets/img/prof_pic.jpg` (replace the placeholder, keep the name) |
+| Publications                           | `_bibliography/papers.bib` (`selected = {true}` shows it on home)  |
+| Publication teaser images              | `assets/img/publication_preview/` + `preview = {file.png}` in bib  |
+| News                                   | one Markdown file per item in `_news/`                             |
+| CV page                                | `_data/cv.yml`                                                     |
+| Social links (email, Scholar, GitHub)  | `_data/socials.yml`                                                |
+| Venue badge colors                     | `_data/venues.yml`                                                 |
+| Co-author links                        | `_data/coauthors.yml`                                              |
+| Site-wide settings                     | `_config.yml`                                                      |
 
 ## Deployment
 
