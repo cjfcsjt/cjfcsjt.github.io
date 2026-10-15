@@ -30,37 +30,24 @@ latest_posts:
 ---
 
 <style>
-  .jc-logos{display:flex;flex-wrap:wrap;align-items:center;gap:1.2rem;margin:.1rem 0 1.3rem}
-  .jc-logos a{display:inline-flex;line-height:0;transition:transform .15s}
-  .jc-logos a:hover{transform:translateY(-2px)}
-  .jc-logos img{height:46px;width:auto}
-  html[data-theme="dark"] .jc-logos img,html[data-theme="dark"] .jc-exp img{background:#fff;border-radius:6px;padding:3px}
   .jc-profile-icons{font-size:1.6rem;text-align:center;margin-top:.4rem}
   .jc-profile-icons a{margin:0 .35rem}
   .jc-profile-note{text-align:center;font-size:.85rem;opacity:.75;margin:.2rem 0 0}
+  html[data-theme="dark"] .jc-exp img{background:#fff;border-radius:6px;padding:3px}
 
-  .jc-wrap{clear:both;display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);gap:1.25rem;align-items:start;margin:1.4rem 0 1.8rem;font-size:.95rem}
+  .jc-flow{clear:both;display:flex;align-items:stretch;gap:.5rem;margin:1.4rem 0 .4rem}
+  .jc-step{flex:1;display:flex;flex-direction:column;gap:.15rem;border:1.5px solid var(--global-divider-color);border-radius:10px;background:var(--global-card-bg-color);padding:.6rem .8rem;color:var(--global-text-color)!important;text-decoration:none!important;transition:border-color .15s,transform .15s,box-shadow .15s}
+  .jc-step:hover{border-color:var(--global-theme-color);transform:translateY(-2px);box-shadow:0 4px 12px rgba(0,0,0,.08)}
+  .jc-step .jc-num{font-size:.72rem;font-weight:700;letter-spacing:.08em;color:var(--global-theme-color)}
+  .jc-step strong{font-size:.98rem;font-weight:600;line-height:1.2}
+  .jc-step small{font-size:.78rem;opacity:.75;line-height:1.25}
+  .jc-flow-arrow{align-self:center;font-size:1.3rem;color:var(--global-theme-color)}
+  @media (max-width:640px){.jc-flow{flex-direction:column}.jc-flow-arrow{transform:rotate(90deg);margin:-.2rem 0}}
+
+  .jc-wrap{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);gap:1.4rem;align-items:start;margin:.6rem 0 1.8rem;font-size:.95rem}
   .jc-left{min-width:0}
   .jc-right{position:sticky;top:80px;min-width:0}
-  @media (max-width:820px){.jc-wrap{grid-template-columns:1fr}.jc-right{position:static;order:-1}}
-
-  .jc-diagram{position:relative;width:100%;max-width:370px;aspect-ratio:1/1;margin:0 auto}
-  .jc-diagram svg{position:absolute;inset:0;width:100%;height:100%;z-index:0}
-  .jc-spoke{stroke:var(--global-theme-color);stroke-width:.6;stroke-dasharray:1.5 1.5;opacity:.45}
-  .jc-loop{stroke:var(--global-theme-color);stroke-width:.9;fill:none;stroke-linecap:round}
-  .jc-arrow{fill:var(--global-theme-color)}
-  .jc-diagram text{fill:var(--global-theme-color);font-size:3.2px;font-style:italic;font-weight:500;letter-spacing:.1px}
-  .jc-node{position:absolute;z-index:1;box-sizing:border-box;border-radius:50%;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:.35rem;text-decoration:none!important;transform:translate(-50%,-50%);transition:transform .15s,box-shadow .15s,border-color .15s;cursor:pointer}
-  .jc-node:hover{transform:translate(-50%,-50%) scale(1.06)}
-  .jc-center{top:50%;left:50%;width:32%;height:32%;background:var(--global-theme-color);border:3px solid var(--global-theme-color);box-shadow:0 5px 14px rgba(0,0,0,.18)}
-  .jc-center strong{color:#fff;font-size:.9rem;line-height:1.12;font-weight:700}
-  .jc-center span{color:#fff;font-size:.62rem;opacity:.92;margin-top:.25rem;white-space:nowrap}
-  .jc-orbit{width:24%;height:24%;border:1.5px solid var(--global-divider-color);background:var(--global-card-bg-color)}
-  .jc-orbit:hover{border-color:var(--global-theme-color);box-shadow:0 4px 12px rgba(0,0,0,.1)}
-  .jc-orbit strong{color:var(--global-theme-color);font-size:.78rem;line-height:1.1;font-weight:600}
-  .jc-orbit span{color:var(--global-text-color);font-size:.56rem;opacity:.8;margin-top:.15rem;line-height:1.15}
-  .jc-n1{top:18%;left:50%}.jc-n2{top:66%;left:78%}.jc-n3{top:66%;left:22%}
-  @media (max-width:520px){.jc-center strong{font-size:.76rem}.jc-orbit strong{font-size:.66rem}.jc-orbit span,.jc-center span{font-size:.5rem}}
+  @media (max-width:820px){.jc-wrap{grid-template-columns:1fr}.jc-right{position:static}}
 
   details.jc-card{border:1px solid var(--global-divider-color);border-radius:10px;background:var(--global-card-bg-color);margin:.6rem 0;padding:0 1rem;transition:border-color .15s}
   details.jc-card[open]{border-color:var(--global-theme-color)}
@@ -76,7 +63,31 @@ latest_posts:
   .jc-body a{color:inherit;text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:2px}
   .jc-body a:hover{color:var(--global-theme-color)}
   .jc-venue{font-size:.8rem;opacity:.75;white-space:nowrap}
+  .jc-domain{font-size:.75rem;font-weight:600;text-transform:uppercase;letter-spacing:.04em;opacity:.7;margin:.45rem 0 .2rem}
   .jc-ongoing{opacity:.75;font-style:italic}
+
+  .jc-figure{margin:0}
+  .jc-figure svg{display:block;width:100%;height:auto;max-width:440px;margin:0 auto}
+  .jc-figure .box-solver{fill:#2e7d9a}
+  .jc-figure .box-improver{fill:#c8553d}
+  .jc-figure .box-neutral{fill:var(--global-card-bg-color);stroke:var(--global-divider-color);stroke-width:.5}
+  .jc-figure .box-retain{fill:var(--global-card-bg-color);stroke:#c8553d;stroke-width:.6;stroke-dasharray:2 1.4}
+  .jc-figure .t-light{fill:#fff}
+  .jc-figure .t-dark{fill:var(--global-text-color)}
+  .jc-figure .t-title{font-size:5px;font-weight:700}
+  .jc-figure .t-sub{font-size:3.3px;opacity:.85}
+  .jc-figure .t-label{font-size:3.3px;fill:var(--global-text-color);opacity:.75}
+  .jc-figure .t-solver{font-size:3.5px;font-weight:700;fill:#2e7d9a}
+  .jc-figure .t-improver{font-size:3.5px;font-weight:700;fill:#c8553d}
+  .jc-figure .a-gray{stroke:var(--global-text-color);stroke-opacity:.55;stroke-width:.6;fill:none}
+  .jc-figure .a-solver{stroke:#2e7d9a;stroke-width:1.1;fill:none}
+  .jc-figure .a-improver{stroke:#c8553d;stroke-width:1.1;stroke-dasharray:2.2 1.4;fill:none}
+  .jc-figure .h-gray{fill:var(--global-text-color);fill-opacity:.55}
+  .jc-figure .h-solver{fill:#2e7d9a}
+  .jc-figure .h-improver{fill:#c8553d}
+  .jc-figure figcaption{font-size:.82rem;line-height:1.45;opacity:.85;margin-top:.5rem}
+  .jc-figure figcaption .c-solver{color:#2e7d9a;font-weight:600}
+  .jc-figure figcaption .c-improver{color:#c8553d;font-weight:600}
 
   .jc-exp{display:grid;grid-template-columns:72px minmax(0,1fr);gap:1rem 1.1rem;align-items:start;margin:.6rem 0 1.6rem}
   .jc-exp img{width:72px;max-height:44px;object-fit:contain;margin-top:.15rem}
@@ -84,113 +95,119 @@ latest_posts:
   .jc-exp p{margin:.15rem 0 0;font-size:.92rem}
 </style>
 
-<div class="jc-logos">
-  <a href="https://www.polyu.edu.hk/" title="The Hong Kong Polytechnic University" target="_blank" rel="noopener"><img src="/assets/img/logos/polyu.png" alt="The Hong Kong Polytechnic University"></a>
-  <a href="http://www.ia.cas.cn/" title="Institute of Automation, Chinese Academy of Sciences" target="_blank" rel="noopener"><img src="/assets/img/logos/casia.png" alt="Institute of Automation, Chinese Academy of Sciences"></a>
-  <a href="https://www.nju.edu.cn/" title="Nanjing University" target="_blank" rel="noopener"><img src="/assets/img/logos/nju.png" alt="Nanjing University"></a>
-  <a href="https://www.sdu.edu.cn/" title="Shandong University" target="_blank" rel="noopener"><img src="/assets/img/logos/sdu.png" alt="Shandong University"></a>
+I am a Ph.D. student at [The Hong Kong Polytechnic University](https://www.polyu.edu.hk/) (PolyU), advised by [Prof. Qing Li](https://www4.comp.polyu.edu.hk/~csqli/) (IEEE Fellow), [Prof. Zhen Lei](http://www.cbsr.ia.ac.cn/users/zlei/) (IEEE Fellow) and [Prof. Zhaoxiang Zhang](https://zhaoxiangzhang.net/). Before that, I received my M.S. in Computer Science from Nanjing University under the supervision of Prof. Yihua Huang, and my B.S. in Software Engineering from Shandong University. I have also been a research intern on the post-training team at [Shanghai AI Laboratory](https://www.shlab.org.cn/) and at Tencent Game AI Lab.
+
+My research focuses on **recursive self-improvement (RSI)**: AI systems that improve not only how they solve tasks, but also the process that produces their improvements, so that each later round of improvement is more effective. I follow one line of work from **RSI** itself, to **code** as the substrate that lets an improver modify, attribute and verify its own changes, to **applications** in GUI agents, multimodal reasoning and long-horizon search, where the loop meets real environments. Most of my methods are built on on-policy reinforcement learning. For more, see my [CV](/cv/).
+
+<div class="jc-flow">
+  <a class="jc-step" data-target="rf-rsi" href="#rf-rsi"><span class="jc-num">01</span><strong>Recursive Self-Improvement</strong><small>improve the improver</small></a>
+  <span class="jc-flow-arrow" aria-hidden="true">→</span>
+  <a class="jc-step" data-target="rf-code" href="#rf-code"><span class="jc-num">02</span><strong>Code as the Substrate</strong><small>target · evidence · verification</small></a>
+  <span class="jc-flow-arrow" aria-hidden="true">→</span>
+  <a class="jc-step" data-target="rf-app" href="#rf-app"><span class="jc-num">03</span><strong>Applications</strong><small>GUI agents · multimodal reasoning · search</small></a>
 </div>
-
-I am a Ph.D. student at [The Hong Kong Polytechnic University](https://www.polyu.edu.hk/) (PolyU), advised by [Prof. Qing Li](https://www4.comp.polyu.edu.hk/~csqli/) (IEEE Fellow), [Prof. Zhen Lei](http://www.cbsr.ia.ac.cn/users/zlei/) (IEEE Fellow) and [Prof. Zhaoxiang Zhang](https://zhaoxiangzhang.net/). Before that, I received my M.S. in Computer Science from [Nanjing University](https://www.nju.edu.cn/) under the supervision of Prof. Yihua Huang, and my B.S. in Software Engineering from [Shandong University](https://www.sdu.edu.cn/). I have also been a research intern on the post-training team at [Shanghai AI Laboratory](https://www.shlab.org.cn/) and at Tencent Game AI Lab.
-
-My research focuses on **self-improving computer-use agents**: multimodal agents that read a screen, act in real software, and keep getting better from their own experience, at a cost that makes them practical. I follow one line of work from reliable _perception and grounding_, to reliable _reasoning_, to reliable _action_ in long-horizon agentic settings, and most of my methods are built on on-policy reinforcement learning. For more, see my [CV](/cv/).
 
 <div class="jc-wrap">
   <div class="jc-left">
-    <details class="jc-card" id="rf-cua" open>
-      <summary><span>Computer-Use Agents <small>— perceive &amp; act on real software</small></span></summary>
+    <details class="jc-card" id="rf-rsi" open>
+      <summary><span>Recursive Self-Improvement <small>— improve the improver</small></span></summary>
       <div class="jc-body">
         <h4>Research Questions</h4>
         <ul>
-          <li><strong>How</strong> can an agent find the right element on a dense, high-resolution screen without paying for every pixel?</li>
-          <li><strong>How</strong> can we scale GUI data and unify action spaces across platforms without human labels?</li>
+          <li><strong>What</strong> makes self-improvement recursive, rather than a solver updated by a fixed improver?</li>
+          <li><strong>How</strong> can we tell whether an updated improver really makes later rounds of improvement more effective, at the same budget?</li>
         </ul>
         <h4>Representative Works</h4>
+        <ul>
+          <li class="jc-ongoing">Ongoing work on improver-level self-modification and how to evaluate it.</li>
+        </ul>
+      </div>
+    </details>
+    <details class="jc-card" id="rf-code">
+      <summary><span>Code as the Substrate <small>— target · evidence · verification</small></span></summary>
+      <div class="jc-body">
+        <h4>Research Questions</h4>
+        <ul>
+          <li><strong>Why</strong> does recursion need code: what makes an improver's own mechanism modifiable, its changes attributable, and its results checkable?</li>
+          <li><strong>How</strong> far can executable checks make verifying a new improver affordable, and where must evidence still come from the environment?</li>
+        </ul>
+        <h4>Representative Works</h4>
+        <ul>
+          <li><a href="https://aclanthology.org/2025.acl-long.510" target="_blank" rel="noopener">AutoGUI: Scaling GUI Grounding with Automatic Functionality Annotations from LLMs</a> <span class="jc-venue">(ACL 2025)</span>: infers what a UI element does from how the UI's source code changes after a simulated interaction.</li>
+          <li class="jc-ongoing">Ongoing work on code as the substrate for recursive self-improvement across digital and physical environments.</li>
+        </ul>
+      </div>
+    </details>
+    <details class="jc-card" id="rf-app">
+      <summary><span>Applications <small>— where the loop meets real environments</small></span></summary>
+      <div class="jc-body">
+        <h4>Research Questions</h4>
+        <ul>
+          <li><strong>How</strong> do improvement loops carry over to GUI agents, multimodal reasoning and long-horizon search, where checks are only partly executable?</li>
+          <li><strong>When</strong> is an extra observation or an extra round of supervision worth its cost, and how can an agent spend it only where it is needed?</li>
+        </ul>
+        <h4>Representative Works</h4>
+        <p class="jc-domain">GUI agents</p>
         <ul>
           <li><a href="/publications/#chen2026foveaui">FoveaUI: Foveated On-demand Visual Evidence Acquisition for GUI Grounding</a> <span class="jc-venue">(ACM MM 2026)</span></li>
           <li><a href="https://arxiv.org/abs/2509.17328" target="_blank" rel="noopener">UIPro: Unleashing Superior Interaction Capability For GUI Agents</a> <span class="jc-venue">(ICCV 2025)</span></li>
           <li><a href="https://aclanthology.org/2025.acl-long.510" target="_blank" rel="noopener">AutoGUI: Scaling GUI Grounding with Automatic Functionality Annotations from LLMs</a> <span class="jc-venue">(ACL 2025)</span></li>
         </ul>
-      </div>
-    </details>
-    <details class="jc-card" id="rf-wm">
-      <summary><span>World Models <small>— predict what happens next</small></span></summary>
-      <div class="jc-body">
-        <h4>Research Questions</h4>
-        <ul>
-          <li><strong>Can</strong> an agent predict how a GUI or a 3D scene will change after it acts?</li>
-          <li><strong>How</strong> should an explicit model of space or interface state support planning and self-checking?</li>
-        </ul>
-        <h4>Representative Works</h4>
-        <ul>
-          <li class="jc-ongoing">Ongoing work on spatial world modeling for multimodal reasoning. Stay tuned.</li>
-        </ul>
-      </div>
-    </details>
-    <details class="jc-card" id="rf-rsi">
-      <summary><span>Recursive Self-Improvement <small>— learn from own experience</small></span></summary>
-      <div class="jc-body">
-        <h4>Research Questions</h4>
-        <ul>
-          <li><strong>How</strong> can a model turn its own rollouts and failures into a better training signal?</li>
-          <li><strong>How</strong> do we keep exploration alive while a model keeps improving itself?</li>
-        </ul>
-        <h4>Representative Works</h4>
+        <p class="jc-domain">Multimodal reasoning</p>
         <ul>
           <li><a href="/publications/#chen2026warmup">Warm Up with a Rubric, Then Merge: Decoupling Grounding Gains from Reasoning Costs in Vision-Language Models</a> <span class="jc-venue">(EMNLP 2026)</span></li>
-          <li class="jc-ongoing">Ongoing work on on-policy reflection for deep-search agents and on-policy self-revision for safe reasoning.</li>
+          <li><a href="https://aclanthology.org/2025.acl-long.634" target="_blank" rel="noopener">Activation Steering Decoding: Mitigating Hallucination in Large Vision-Language Models through Bidirectional Hidden State Intervention</a> <span class="jc-venue">(ACL 2025)</span></li>
         </ul>
-      </div>
-    </details>
-    <details class="jc-card" id="rf-eff">
-      <summary><span>Agentic Efficiency <small>— compute where it matters</small></span></summary>
-      <div class="jc-body">
-        <h4>Research Questions</h4>
+        <p class="jc-domain">Long-horizon search</p>
         <ul>
-          <li><strong>When</strong> does an agent need to look closer, and when is a glance enough?</li>
-          <li><strong>Can</strong> we keep the benefit of expensive supervision while paying for it only once?</li>
-        </ul>
-        <h4>Representative Works</h4>
-        <ul>
-          <li><a href="/publications/#chen2026foveaui">FoveaUI: Foveated On-demand Visual Evidence Acquisition for GUI Grounding</a> <span class="jc-venue">(ACM MM 2026)</span></li>
-          <li><a href="/publications/#chen2026warmup">Warm Up with a Rubric, Then Merge</a> <span class="jc-venue">(EMNLP 2026)</span></li>
+          <li class="jc-ongoing">Ongoing work on agentic RL for deep-search agents.</li>
         </ul>
       </div>
     </details>
   </div>
 
   <div class="jc-right">
-    <div class="jc-diagram" aria-label="Research focus diagram">
-      <svg viewBox="0 0 100 100" preserveAspectRatio="xMidYMid meet" aria-hidden="true">
+    <figure class="jc-figure">
+      <svg viewBox="0 0 120 98" role="img" aria-label="One round of recursive self-improvement: the solver runs tasks, its experience goes to the improver, the improver proposes candidates, verification decides what is kept, and accepted updates are written back to the solver and, in RSI, to the improver itself.">
         <defs>
-          <marker id="jc-head" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse">
-            <path d="M 0 0 L 10 5 L 0 10 z" class="jc-arrow"></path>
-          </marker>
+          <marker id="jc-h-gray" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" class="h-gray"></path></marker>
+          <marker id="jc-h-solver" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="3.6" markerHeight="3.6" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" class="h-solver"></path></marker>
+          <marker id="jc-h-improver" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="3.6" markerHeight="3.6" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" class="h-improver"></path></marker>
         </defs>
-        <line class="jc-spoke" x1="50" y1="50" x2="50" y2="18"></line>
-        <line class="jc-spoke" x1="50" y1="50" x2="78" y2="66"></line>
-        <line class="jc-spoke" x1="50" y1="50" x2="22" y2="66"></line>
-        <path class="jc-loop" d="M 63.28 18.70 A 34 34 0 0 1 75.27 27.25"></path>
-        <path class="jc-loop" d="M 82.34 39.49 A 34 34 0 0 1 83.77 53.97" marker-end="url(#jc-head)"></path>
-        <text x="79.4" y="32.2" text-anchor="middle"><tspan x="79.4" dy="0">imagined</tspan><tspan x="79.4" dy="3.6">rollouts</tspan></text>
-        <path class="jc-loop" d="M 70.60 77.05 A 34 34 0 0 1 57.07 83.26"></path>
-        <path class="jc-loop" d="M 42.93 83.26 A 34 34 0 0 1 29.40 77.05" marker-end="url(#jc-head)"></path>
-        <text x="50" y="83.2" text-anchor="middle"><tspan x="50" dy="0">learn to</tspan><tspan x="50" dy="3.6">act cheaply</tspan></text>
-        <path class="jc-loop" d="M 16.23 53.97 A 34 34 0 0 1 17.66 39.49"></path>
-        <path class="jc-loop" d="M 24.73 27.25 A 34 34 0 0 1 36.72 18.70" marker-end="url(#jc-head)"></path>
-        <text x="20.6" y="32.2" text-anchor="middle"><tspan x="20.6" dy="0">budget the</tspan><tspan x="20.6" dy="3.6">lookahead</tspan></text>
+        <rect x="3" y="6" width="46" height="22" rx="3" class="box-solver"></rect>
+        <text x="26" y="16" text-anchor="middle" class="t-light t-title">Solver S<tspan dy="1.2" font-size="3.4">t</tspan></text>
+        <text x="26" y="22.5" text-anchor="middle" class="t-light t-sub">solves tasks</text>
+        <rect x="71" y="6" width="46" height="22" rx="3" class="box-neutral"></rect>
+        <text x="94" y="16" text-anchor="middle" class="t-dark t-title">Experience E<tspan dy="1.2" font-size="3.4">t</tspan></text>
+        <text x="94" y="22.5" text-anchor="middle" class="t-dark t-sub">traces · scores · probes</text>
+        <rect x="71" y="60" width="46" height="24" rx="3" class="box-improver"></rect>
+        <text x="94" y="70.5" text-anchor="middle" class="t-light t-title">Improver I<tspan dy="1.2" font-size="3.4">t</tspan></text>
+        <text x="94" y="77" text-anchor="middle" class="t-light t-sub">proposes updates</text>
+        <rect x="3" y="60" width="46" height="24" rx="3" class="box-retain"></rect>
+        <text x="26" y="70.5" text-anchor="middle" class="t-dark t-title">Verify &amp; retain</text>
+        <text x="26" y="77" text-anchor="middle" class="t-dark t-sub">accept or reject</text>
+        <line x1="49.5" y1="17" x2="70" y2="17" class="a-gray" marker-end="url(#jc-h-gray)"></line>
+        <text x="60" y="14" text-anchor="middle" class="t-label">run</text>
+        <line x1="94" y1="28.5" x2="94" y2="59" class="a-gray" marker-end="url(#jc-h-gray)"></line>
+        <text x="96" y="45" class="t-label">experience</text>
+        <line x1="70.5" y1="66" x2="50" y2="66" class="a-gray" marker-end="url(#jc-h-gray)"></line>
+        <text x="60" y="63.5" text-anchor="middle" class="t-label">candidates</text>
+        <line x1="18" y1="59.5" x2="18" y2="29" class="a-solver" marker-end="url(#jc-h-solver)"></line>
+        <text x="20.5" y="43" class="t-solver">update</text>
+        <text x="20.5" y="47.2" class="t-solver">solver</text>
+        <line x1="49.5" y1="79" x2="70" y2="79" class="a-improver" marker-end="url(#jc-h-improver)"></line>
+        <text x="60" y="92" text-anchor="middle" class="t-improver">update improver (RSI)</text>
       </svg>
-      <a class="jc-node jc-center" data-target="rf-cua" href="#rf-cua"><strong>Computer-Use<br>Agents</strong><span>perceive ⇆ act</span></a>
-      <a class="jc-node jc-orbit jc-n1" data-target="rf-wm" href="#rf-wm"><strong>World Models</strong><span>predict what's next</span></a>
-      <a class="jc-node jc-orbit jc-n2" data-target="rf-rsi" href="#rf-rsi"><strong>Self-Improvement</strong><span>learn from own rollouts</span></a>
-      <a class="jc-node jc-orbit jc-n3" data-target="rf-eff" href="#rf-eff"><strong>Efficiency</strong><span>compute where it matters</span></a>
-    </div>
+      <figcaption>
+        One round of improvement. <span class="c-solver">Solid</span>: accepted updates are written back to the solver, as in ordinary self-improvement. <span class="c-improver">Dashed</span>: in RSI they are also written back to the improver, so the next round is produced by a better improver. Adapted from <a href="https://www.preprints.org/manuscript/202609.2680" target="_blank" rel="noopener">Wu et al., Recursive Self-Improvement in AI: A Survey (2026)</a>.
+      </figcaption>
+    </figure>
   </div>
 </div>
 
 <script>
   (function () {
-    document.querySelectorAll(".jc-node[data-target]").forEach(function (el) {
+    document.querySelectorAll(".jc-step[data-target]").forEach(function (el) {
       el.addEventListener("click", function (e) {
         e.preventDefault();
         var target = document.getElementById(el.getAttribute("data-target"));
