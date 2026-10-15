@@ -35,13 +35,13 @@ latest_posts:
   html[data-theme="dark"] .jc-exp img{background:#fff;border-radius:6px;padding:3px}
 
   .jc-flow{clear:both;display:flex;align-items:stretch;gap:.5rem;margin:1.4rem 0 .4rem}
-  .jc-step{flex:1;display:flex;flex-direction:column;gap:.15rem;border:1.5px solid var(--global-divider-color);border-radius:10px;background:var(--global-card-bg-color);padding:.6rem .8rem;color:var(--global-text-color)!important;text-decoration:none!important;transition:border-color .15s,transform .15s,box-shadow .15s}
+  .jc-step{flex:1;min-width:0;display:flex;flex-direction:column;gap:.15rem;border:1.5px solid var(--global-divider-color);border-radius:10px;background:var(--global-card-bg-color);padding:.6rem .8rem;color:var(--global-text-color)!important;text-decoration:none!important;transition:border-color .15s,transform .15s,box-shadow .15s}
   .jc-step:hover{border-color:var(--global-theme-color);transform:translateY(-2px);box-shadow:0 4px 12px rgba(0,0,0,.08)}
   .jc-step .jc-num{font-size:.72rem;font-weight:700;letter-spacing:.08em;color:var(--global-theme-color)}
   .jc-step strong{font-size:.98rem;font-weight:600;line-height:1.2}
   .jc-step small{font-size:.78rem;opacity:.75;line-height:1.25}
   .jc-flow-arrow{align-self:center;font-size:1.3rem;color:var(--global-theme-color)}
-  @media (max-width:640px){.jc-flow{flex-direction:column}.jc-flow-arrow{transform:rotate(90deg);margin:-.2rem 0}}
+  @media (max-width:760px){.jc-flow{flex-direction:column}.jc-flow-arrow{transform:rotate(90deg);margin:-.2rem 0}}
 
   .jc-wrap{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);gap:1.4rem;align-items:start;margin:.6rem 0 1.8rem;font-size:.95rem}
   .jc-left{min-width:0}
@@ -96,14 +96,16 @@ latest_posts:
 
 I am a Ph.D. student at [The Hong Kong Polytechnic University](https://www.polyu.edu.hk/) (PolyU), advised by [Prof. Qing Li](https://www4.comp.polyu.edu.hk/~csqli/) (IEEE Fellow), [Prof. Zhen Lei](http://www.cbsr.ia.ac.cn/users/zlei/) (IEEE Fellow) and [Prof. Zhaoxiang Zhang](https://zhaoxiangzhang.net/). Before that, I received my M.S. in Computer Science from Nanjing University under the supervision of Prof. Yihua Huang, and my B.S. in Software Engineering from Shandong University. I have also been a research intern on the post-training team at [Shanghai AI Laboratory](https://www.shlab.org.cn/) and at Tencent Game AI Lab.
 
-My research focuses on **recursive self-improvement (RSI) for computer use**: agents that operate real software, and that improve not only how they complete tasks but also the process that produces their improvements, so that each later round of improvement is more effective. I follow one line of work from **RSI** itself, to **code** as the substrate that lets an improver modify, attribute and verify its own changes, to **computer use** as the setting where the loop meets real software. Most of my methods are built on on-policy reinforcement learning.
+My research focuses on **recursive self-improvement (RSI) for computer use**: agents that operate real software, and that improve not only how they complete tasks but also the process that produces their improvements, so that each later round of improvement is more effective. I follow one line of work from **RSI** itself, to **code** as the substrate that lets an improver modify, attribute and verify its own changes, to **computer use** as the setting where the loop meets real software, and on to **applications** in the digital and physical worlds. Most of my methods are built on on-policy reinforcement learning.
 
 <div class="jc-flow">
   <a class="jc-step" data-target="rf-rsi" href="#rf-rsi"><span class="jc-num">01</span><strong>Recursive Self-Improvement</strong><small>improve the improver</small></a>
   <span class="jc-flow-arrow" aria-hidden="true">→</span>
   <a class="jc-step" data-target="rf-code" href="#rf-code"><span class="jc-num">02</span><strong>Code as the Substrate</strong><small>target · evidence · verification</small></a>
   <span class="jc-flow-arrow" aria-hidden="true">→</span>
-  <a class="jc-step" data-target="rf-app" href="#rf-app"><span class="jc-num">03</span><strong>Computer Use</strong><small>GUI agents on real software</small></a>
+  <a class="jc-step" data-target="rf-cu" href="#rf-cu"><span class="jc-num">03</span><strong>Computer Use</strong><small>GUI agents on real software</small></a>
+  <span class="jc-flow-arrow" aria-hidden="true">→</span>
+  <a class="jc-step" data-target="rf-app" href="#rf-app"><span class="jc-num">04</span><strong>Applications</strong><small>digital world · physical world</small></a>
 </div>
 
 <div class="jc-wrap">
@@ -137,7 +139,7 @@ My research focuses on **recursive self-improvement (RSI) for computer use**: ag
         </ul>
       </div>
     </details>
-    <details class="jc-card" id="rf-app">
+    <details class="jc-card" id="rf-cu">
       <summary><span>Computer Use <small>— where the loop meets real software</small></span></summary>
       <div class="jc-body">
         <h4>Research Questions</h4>
@@ -156,6 +158,25 @@ My research focuses on **recursive self-improvement (RSI) for computer use**: ag
         <ul>
           <li><a href="/publications/#chen2026warmup">Warm Up with a Rubric, Then Merge: Decoupling Grounding Gains from Reasoning Costs in Vision-Language Models</a> <span class="jc-venue">(EMNLP 2026)</span></li>
           <li><a href="https://aclanthology.org/2025.acl-long.634" target="_blank" rel="noopener">Activation Steering Decoding: Mitigating Hallucination in Large Vision-Language Models through Bidirectional Hidden State Intervention</a> <span class="jc-venue">(ACL 2025)</span></li>
+        </ul>
+      </div>
+    </details>
+    <details class="jc-card" id="rf-app">
+      <summary><span>Applications <small>— digital world · physical world</small></span></summary>
+      <div class="jc-body">
+        <h4>Research Questions</h4>
+        <ul>
+          <li><strong>How</strong> far does an improvement loop built for software reach in the digital world, on long-horizon tasks such as deep search?</li>
+          <li><strong>What</strong> changes in the physical world, where outcomes cannot be checked by running code and evidence must come from 3D scenes, simulators or real environments?</li>
+        </ul>
+        <h4>Representative Works</h4>
+        <p class="jc-domain">Digital world</p>
+        <ul>
+          <li class="jc-ongoing">Ongoing work on agentic RL and self-reflection for long-horizon deep-search agents.</li>
+        </ul>
+        <p class="jc-domain">Physical world</p>
+        <ul>
+          <li class="jc-ongoing">Ongoing work on spatial reasoning in 3D scenes for multimodal models.</li>
         </ul>
       </div>
     </details>
