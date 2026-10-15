@@ -16,16 +16,16 @@ cv:
     Academic Interests:
       - name: Computer-Use Agents
         icon: fa-solid fa-computer-mouse
-        keywords: ["GUI grounding", "GUI agents", "multimodal LLMs", "cross-platform action spaces"]
+        keywords: "GUI grounding, GUI agents, multimodal LLMs, cross-platform action spaces"
       - name: World Models for Agents
         icon: fa-solid fa-globe
-        keywords: ["environment dynamics", "next-state prediction", "imagined rollouts", "planning"]
+        keywords: "environment dynamics, next-state prediction, imagined rollouts, planning"
       - name: Recursive Self-Improvement
         icon: fa-solid fa-arrows-rotate
-        keywords: ["self-generated tasks and data", "self-verification", "self-evolving agents"]
+        keywords: "self-generated tasks and data, self-verification, self-evolving agents"
       - name: Agentic Efficiency
         icon: fa-solid fa-gauge-high
-        keywords: ["step, token and latency efficiency", "test-time compute allocation"]
+        keywords: "step, token and latency efficiency, test-time compute allocation"
 
     Education:
       - institution: The Hong Kong Polytechnic University
