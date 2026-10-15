@@ -1,0 +1,27 @@
+"ICCV":
+  url: https://iccv.thecvf.com/
+  color: "#1f6f8b"
+
+"ACL":
+  url: https://2025.aclweb.org/
+  color: "#c0392b"
+
+"WWW":
+  url: https://www2023.thewebconf.org/
+  color: "#6c3483"
+
+"KDD":
+  url: https://kdd.org/kdd2022/
+  color: "#1e8449"
+
+"SIGIR":
+  url: https://sigir.org/sigir2022/
+  color: "#b9770e"
+
+"CIKM":
+  url: https://www.cikm2022.org/
+  color: "#2e4053"
+
+"arXiv":
+  url: https://arxiv.org/
+  color: "#7f8c8d"

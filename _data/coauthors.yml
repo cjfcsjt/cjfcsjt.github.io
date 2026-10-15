@@ -1,0 +1,16 @@
+# Co-author links shown on the publication list (keyed by lowercase last name).
+"li":
+  - firstname: ["Qing", "Q."]
+    url: https://www4.comp.polyu.edu.hk/~csqli/
+
+"lei":
+  - firstname: ["Zhen", "Z."]
+    url: http://www.cbsr.ia.ac.cn/users/zlei/
+
+"fan":
+  - firstname: ["Wenqi", "W."]
+    url: https://wenqifan03.github.io
+
+"zhang":
+  - firstname: ["Zhaoxiang", "Z."]
+    url: https://scholar.google.com/citations?user=qxWfV6cAAAAJ

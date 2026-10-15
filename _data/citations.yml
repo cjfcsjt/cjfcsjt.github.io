@@ -1,0 +1,47 @@
+metadata:
+  last_updated: '2026-10-15'
+papers:
+  KSafcUUAAAAJ:UeHWp8X0CEIC:
+    citations: 122
+    title: Disentangled contrastive learning for social recommendation
+    year: '2022'
+  KSafcUUAAAAJ:zYLM7Y9cAGgC:
+    citations: 82
+    title: Fairly adaptive negative sampling for recommendations
+    year: '2023'
+  KSafcUUAAAAJ:qjMakFHDy7sC:
+    citations: 78
+    title: Knowledge-enhanced black-box attacks for recommendations
+    year: '2022'
+  KSafcUUAAAAJ:IjCSPb-OGe4C:
+    citations: 44
+    title: Towards self-supervised learning on graphs with heterophily
+    year: '2022'
+  KSafcUUAAAAJ:eQOLeE2rZwMC:
+    citations: 42
+    title: 'Activation steering decoding: Mitigating hallucination in large vision-language models through bidirectional hidden state intervention'
+    year: '2025'
+  KSafcUUAAAAJ:2osOgNQ5qMEC:
+    citations: 38
+    title: 'AutoGSR: Neural architecture search for graph-based session recommendation'
+    year: '2022'
+  KSafcUUAAAAJ:W7OEmFMy1HYC:
+    citations: 21
+    title: 'Autogui: Scaling gui grounding with automatic functionality annotations from llms'
+    year: '2025'
+  KSafcUUAAAAJ:Tyk-4Ss8FVUC:
+    citations: 17
+    title: 'DiffusePast: Diffusion-based generative replay for class incremental semantic segmentation'
+    year: '2023'
+  KSafcUUAAAAJ:u5HHmVD_uO8C:
+    citations: 17
+    title: Semi-supervised embedding learning for high-dimensional bayesian optimization
+    year: '2020'
+  KSafcUUAAAAJ:Y0pCki6q_DkC:
+    citations: 14
+    title: Dataset condensation for recommendation
+    year: '2023'
+  KSafcUUAAAAJ:YsMSGLbcyi4C:
+    citations: 1
+    title: 'UIPro: Unleashing Superior Interaction Capability For GUI Agents'
+    year: '2025'
