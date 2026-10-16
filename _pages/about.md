@@ -238,7 +238,7 @@ My research focuses on **Efficient LLM Agents**, **Agentic Computer Use** and **
   })();
 </script>
 
-My earlier work focused on **information retrieval**, including recommender systems, graph learning and the robustness of recommenders (e.g., [KGAttack](https://arxiv.org/abs/2207.10307), KDD 2022), with papers at KDD, SIGIR, WWW and CIKM.
+My earlier work focused on **information retrieval**.
 
 ## experience
 
