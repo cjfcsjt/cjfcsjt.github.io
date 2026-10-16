@@ -171,7 +171,7 @@ My research focuses on **Efficient LLM Agents**, **Agentic Computer Use** and **
         </ul>
         <h4>Representative Works</h4>
         <ul>
-          <li><a href="https://x.com/XGEN_labs/article/2103137462008844442" target="_blank" rel="noopener">Dual Exam: Controlled Evaluation of Multimodal Agents and World Models</a> <span class="jc-venue">(XGEN Labs Tech Report 2026)</span>: agent and world-model tracks across physical, digital, social and scientific tasks.</li>
+          <li><a href="https://x.com/XGEN_labs/article/2103137462008844442" target="_blank" rel="noopener">Dual Exam: Controlled Evaluation of Multimodal Agents and World Models</a> <span class="jc-venue">(XGEN Labs Tech Report 2026, core contributor)</span>: agent and world-model tracks across physical, digital, social and scientific tasks.</li>
         </ul>
         <p class="jc-domain">Digital world</p>
         <ul>
