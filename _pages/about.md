@@ -100,7 +100,7 @@ latest_posts:
 
 I am a Ph.D. student at [The Hong Kong Polytechnic University](https://www.polyu.edu.hk/) (PolyU), advised by [Prof. Qing Li](https://www4.comp.polyu.edu.hk/~csqli/) (IEEE Fellow), [Prof. Zhen Lei](http://www.cbsr.ia.ac.cn/users/zlei/) (IEEE Fellow) and [Prof. Zhaoxiang Zhang](https://zhaoxiangzhang.net/). Before that, I received my M.S. in Computer Science from Nanjing University and my B.S. in Software Engineering from Shandong University. I have also been a research intern on the post-training team at [Shanghai AI Laboratory](https://www.shlab.org.cn/) and at Tencent Game AI Lab.
 
-My research focuses on **recursive self-improvement (RSI) for computer use**: agents that operate real software, and that improve not only how they complete tasks but also the process that produces their improvements, so that each later round of improvement is more effective. I follow one line of work from **RSI** itself, to **code** as the substrate that lets an improver modify, attribute and verify its own changes, to **computer use** as the setting where the loop meets real software, and on to **applications** in the digital and physical worlds. Most of my methods are built on on-policy reinforcement learning.
+My research focuses on **self-improvement for computer use**: agents that operate real software, and that improve not only how they complete tasks but also the process that produces their improvements, so that each later round of improvement is more effective. I follow one line of work from **recursive self-improvement (RSI)**, to **code** as the substrate that lets an improver modify, attribute and verify its own changes, to **computer use** as the setting where the loop meets real software, and on to **applications** in the digital and physical worlds. Most of my methods are built on on-policy reinforcement learning.
 
 <div class="jc-flow">
   <a class="jc-step" data-target="rf-rsi" href="#rf-rsi"><span class="jc-num">01</span><strong>Recursive Self-Improvement</strong><small>improve the improver</small></a>
@@ -174,6 +174,9 @@ My research focuses on **recursive self-improvement (RSI) for computer use**: ag
           <li><strong>What</strong> changes in the physical world, where outcomes cannot be checked by running code and evidence must come from 3D scenes, simulators or real environments?</li>
         </ul>
         <h4>Representative Works</h4>
+        <ul>
+          <li><a href="https://x.com/XGEN_labs/article/2103137462008844442" target="_blank" rel="noopener">Dual Exam: Controlled Evaluation of Multimodal Agents and World Models</a> <span class="jc-venue">(XGEN Labs Tech Report 2026)</span>: agent and world-model tracks across physical, digital, social and scientific tasks.</li>
+        </ul>
         <p class="jc-domain">Digital world</p>
         <ul>
           <li class="jc-ongoing">Ongoing work on agentic RL and self-reflection for long-horizon deep-search agents.</li>
