@@ -29,10 +29,6 @@ latest_posts:
 ---
 
 <style>
-  .profile figure.jc-swap{position:relative;cursor:pointer}
-  .profile figure.jc-swap .jc-hover-img{position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;opacity:0;transition:opacity .6s ease;pointer-events:none}
-  .profile figure.jc-swap:hover .jc-hover-img,.profile figure.jc-swap.jc-on .jc-hover-img{opacity:1}
-  @media (prefers-reduced-motion:reduce){.profile figure.jc-swap .jc-hover-img{transition:none}}
   .jc-profile-icons{font-size:1.6rem;text-align:center;margin-top:.4rem}
   .jc-profile-icons a{margin:0 .35rem}
   .jc-profile-note{text-align:center;font-size:.85rem;opacity:.75;margin:.2rem 0 0}
@@ -227,25 +223,6 @@ My research focuses on **self-improvement for computer use**.
     </figure>
   </div>
 </div>
-
-<script>
-  (function () {
-    var fig = document.querySelector(".profile figure");
-    var base = fig && fig.querySelector("img");
-    if (!base) return;
-    var hover = new Image();
-    hover.src = "/assets/img/prof_pic_hover.jpg";
-    hover.alt = "";
-    hover.setAttribute("aria-hidden", "true");
-    hover.className = "jc-hover-img " + base.className;
-    fig.classList.add("jc-swap");
-    fig.appendChild(hover);
-    // touch screens have no hover: tap to switch between the two photos
-    fig.addEventListener("click", function () {
-      if (window.matchMedia("(hover: none)").matches) fig.classList.toggle("jc-on");
-    });
-  })();
-</script>
 
 <script>
   (function () {
