@@ -34,6 +34,9 @@ latest_posts:
   .jc-profile-note{text-align:center;font-size:.85rem;opacity:.75;margin:.2rem 0 0}
   html[data-theme="dark"] .jc-exp img{background:#fff;border-radius:6px;padding:3px}
 
+  .jc-costfig{clear:both;position:relative;width:min(1240px,calc(100vw - 48px));left:50%;transform:translateX(-50%);margin:1.6rem 0 .4rem;border-radius:14px;overflow:hidden;box-shadow:0 2px 10px rgba(0,0,0,.08)}
+  .jc-costfig-inner{width:1552px;height:1336px;transform-origin:0 0}
+  .jc-costfig-cap{font-size:.85rem;opacity:.85;margin:.4rem 0 1.2rem}
   .jc-flow{clear:both;display:flex;align-items:stretch;gap:.5rem;margin:1.4rem 0 .4rem}
   .jc-step{flex:1;min-width:0;display:flex;flex-direction:column;gap:.15rem;border:1.5px solid var(--global-divider-color);border-radius:10px;background:var(--global-card-bg-color);padding:.6rem .8rem;color:var(--global-text-color)!important;text-decoration:none!important;transition:border-color .15s,transform .15s,box-shadow .15s}
   .jc-step:hover{border-color:var(--global-theme-color);transform:translateY(-2px);box-shadow:0 4px 12px rgba(0,0,0,.08)}
@@ -100,6 +103,119 @@ I am a Ph.D. student at [The Hong Kong Polytechnic University](https://www.polyu
 
 My research focuses on **Efficient LLM Agents**, **Agentic Computer Use** and **Recursive Self-Improvement (RSI)**.
 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600&amp;family=IBM+Plex+Serif:wght@600&amp;display=swap" rel="stylesheet">
+<div class="jc-costfig" id="jc-costfig">
+<div class="jc-costfig-inner">
+<div style="position: relative; width: 1552px; height: 1336px; background: #F7F7F5; color: #1C1C1A; font-family: 'IBM Plex Sans', 'Helvetica Neue', sans-serif; overflow: hidden">
+<div style="position: absolute; left: 64px; top: 416px; width: 1424px; height: 320px; background: #F0EEE9; border-radius: 16px"></div>
+<div style="position: absolute; left: 64px; top: 792px; width: 1424px; height: 184px; background: #F0EEE9; border-radius: 16px"></div>
+<svg aria-hidden="true" width="288" height="192" viewBox="0 0 288 192" style="position: absolute; left: 1184px; top: 72px; width: 288px; height: 192px; overflow: visible"><path d="M 0 0 L 0 192 L 288 192" fill="none" stroke="#3D3C38" stroke-width="1.5"></path><path d="M 6 182 C 40 70, 120 28, 284 14" fill="none" stroke="#B8B5AC" stroke-width="2" stroke-dasharray="5 5"></path><defs><marker id="dc-arrow-head-filled-1" orient="auto" markerWidth="5" markerHeight="5" refX="2" refY="2" overflow="visible"><path d="M0 0 L4 2 L0 4 Z" fill="#1C1C1A" stroke="none" style="stroke: none; fill: #1C1C1A; fill: context-stroke"/></marker></defs><path d="M 205 107 L 110 66" fill="none" stroke="#1C1C1A" stroke-width="2" stroke-linecap="round" marker-end="url(#dc-arrow-head-filled-1)"></path><circle cx="214" cy="112" r="7" fill="#8A8378"></circle><circle cx="96" cy="58" r="8" fill="#1C1C1A"></circle></svg>
+<svg aria-hidden="true" width="120" height="8" viewBox="0 0 120 8" preserveAspectRatio="none" style="position: absolute; left: 552px; top: 572px; width: 120px; height: 8px; overflow: visible; fill: none; stroke: #1F5F8B; stroke-width: 3; stroke-linecap: round; stroke-linejoin: round"><path d="M 0 4 L 120 4"></path></svg>
+<svg aria-hidden="true" width="120" height="8" viewBox="0 0 120 8" preserveAspectRatio="none" style="position: absolute; left: 1048px; top: 468px; width: 120px; height: 8px; overflow: visible; fill: none; stroke: #B45309; stroke-width: 3; stroke-linecap: round; stroke-linejoin: round"><path d="M 0 4 L 120 4"></path></svg>
+<svg aria-hidden="true" width="8" height="39" viewBox="0 0 8 39" preserveAspectRatio="none" style="position: absolute; left: 1324px; top: 504px; width: 8px; height: 39px; overflow: visible; fill: none; stroke: #B45309; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round"><defs><marker id="dc-arrow-head-filled-2" orient="auto" markerWidth="5" markerHeight="5" refX="2" refY="2" overflow="visible"><path d="M0 0 L4 2 L0 4 Z" fill="#B45309" stroke="none" style="stroke: none; fill: #B45309; fill: context-stroke"/></marker></defs><path d="M 4 0 L 4 35" marker-end="url(#dc-arrow-head-filled-2)"></path></svg>
+<svg aria-hidden="true" width="8" height="39" viewBox="0 0 8 39" preserveAspectRatio="none" style="position: absolute; left: 1324px; top: 608px; width: 8px; height: 39px; overflow: visible; fill: none; stroke: #B45309; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round"><defs><marker id="dc-arrow-head-filled-3" orient="auto" markerWidth="5" markerHeight="5" refX="2" refY="2" overflow="visible"><path d="M0 0 L4 2 L0 4 Z" fill="#B45309" stroke="none" style="stroke: none; fill: #B45309; fill: context-stroke"/></marker></defs><path d="M 4 0 L 4 35" marker-end="url(#dc-arrow-head-filled-3)"></path></svg>
+<svg aria-hidden="true" width="119" height="8" viewBox="0 0 119 8" preserveAspectRatio="none" style="position: absolute; left: 1049px; top: 676px; width: 119px; height: 8px; overflow: visible; fill: none; stroke: #7A3A05; stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round"><defs><marker id="dc-arrow-head-filled-4" orient="auto" markerWidth="5" markerHeight="5" refX="2" refY="2" overflow="visible"><path d="M0 0 L4 2 L0 4 Z" fill="#7A3A05" stroke="none" style="stroke: none; fill: #7A3A05; fill: context-stroke"/></marker></defs><path d="M 119 4 L 5 4" marker-end="url(#dc-arrow-head-filled-4)"></path></svg>
+<svg aria-hidden="true" width="8" height="95" viewBox="0 0 8 95" preserveAspectRatio="none" style="position: absolute; left: 856px; top: 712px; width: 8px; height: 95px; overflow: visible; fill: none; stroke: #8A8378; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round"><defs><marker id="dc-arrow-head-filled-5" orient="auto" markerWidth="5" markerHeight="5" refX="2" refY="2" overflow="visible"><path d="M0 0 L4 2 L0 4 Z" fill="#8A8378" stroke="none" style="stroke: none; fill: #8A8378; fill: context-stroke"/></marker></defs><path d="M 4 0 L 4 91" marker-end="url(#dc-arrow-head-filled-5)"></path></svg>
+<svg aria-hidden="true" width="120" height="8" viewBox="0 0 120 8" preserveAspectRatio="none" style="position: absolute; left: 552px; top: 876px; width: 120px; height: 8px; overflow: visible; fill: none; stroke: #1F5F8B; stroke-width: 3; stroke-linecap: round; stroke-linejoin: round"><path d="M 0 4 L 120 4"></path></svg>
+<svg aria-hidden="true" width="120" height="8" viewBox="0 0 120 8" preserveAspectRatio="none" style="position: absolute; left: 1048px; top: 876px; width: 120px; height: 8px; overflow: visible; fill: none; stroke: #B45309; stroke-width: 3; stroke-linecap: round; stroke-linejoin: round"><path d="M 0 4 L 120 4"></path></svg>
+<div style="position: absolute; left: 64px; top: 56px; width: 1000px; font-family: 'IBM Plex Serif', Georgia, serif; font-size: 40px; line-height: 48px; font-weight: 600">Efficient Agentic Systems</div>
+<div style="position: absolute; left: 64px; top: 112px; width: 1000px; font-size: 18px; line-height: 26px; color: #5F5E5A">An agent pays for every interaction with its environment and for every computation it runs, while it learns and after it is deployed.</div>
+<div style="position: absolute; left: 64px; top: 200px; width: 1000px; height: 96px; box-sizing: border-box; padding: 16px 28px; display: flex; align-items: center; background: #1C1C1A; border-radius: 12px; font-size: 15px; line-height: 24px; color: #D9D7D0"><span><b style="font-size: 20px; line-height: 30px; color: #FAFAF7">Objective: the same or better accuracy at a lower cost</b><br>amortized cost per task = per-task deployment cost + one-time learning cost ÷ N  ·  N = number of tasks served</span></div>
+<div style="position: absolute; left: 1136px; top: 40px; width: 352px; text-align: center; font-size: 15px; line-height: 20px; font-weight: 600; color: #1C1C1A">The goal, at a glance</div>
+<div style="position: absolute; left: 1192px; top: 72px; width: 80px; font-size: 12px; line-height: 16px; color: #5F5E5A">accuracy</div>
+<div style="position: absolute; left: 1416px; top: 270px; width: 56px; text-align: right; font-size: 12px; line-height: 16px; color: #5F5E5A">cost</div>
+<div style="position: absolute; left: 1350px; top: 196px; width: 96px; text-align: center; font-size: 12px; line-height: 16px; color: #5F5E5A">fixed budget</div>
+<div style="position: absolute; left: 1196px; top: 124px; width: 72px; text-align: right; font-size: 12px; line-height: 16px; font-weight: 600; color: #1C1C1A">efficient</div>
+<div style="position: absolute; left: 1136px; top: 296px; width: 352px; text-align: center; font-size: 14px; line-height: 20px; color: #1C1C1A">Move up and to the left</div>
+<div style="position: absolute; left: 304px; top: 344px; width: 248px; height: 56px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; text-align: center; font-size: 13px; line-height: 18px; color: #5F5E5A"><span><b style="font-size: 28px; line-height: 34px; color: #1F5F8B">Interaction</b><br>cost charged by the environment</span></div>
+<div style="position: absolute; left: 672px; top: 344px; width: 376px; height: 56px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; text-align: center; font-size: 13px; line-height: 18px; color: #8A8378"><span><b style="font-size: 16px; line-height: 22px; color: #5F5E5A">Agent system</b><br>decides what to request and what to compute</span></div>
+<div style="position: absolute; left: 1168px; top: 344px; width: 320px; height: 56px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; text-align: center; font-size: 13px; line-height: 18px; color: #5F5E5A"><span><b style="font-size: 28px; line-height: 34px; color: #9A4A07">Computation</b><br>cost charged by the infrastructure</span></div>
+<div style="position: absolute; left: 80px; top: 440px; width: 192px; height: 272px; box-sizing: border-box; padding: 16px; display: flex; align-items: center; font-size: 13px; line-height: 18px; color: #8A8378"><span><b style="font-size: 48px; line-height: 56px; color: #1C1C1A">×1</b><br><b style="font-size: 20px; line-height: 28px; color: #1C1C1A">Learning</b><br>paid once</span></div>
+<div style="position: absolute; left: 80px; top: 808px; width: 192px; height: 152px; box-sizing: border-box; padding: 16px; display: flex; align-items: center; font-size: 13px; line-height: 18px; color: #8A8378"><span><b style="font-size: 48px; line-height: 56px; color: #1C1C1A">×N</b><br><b style="font-size: 20px; line-height: 28px; color: #1C1C1A">Deployment</b><br>paid for every task</span></div>
+<div style="position: absolute; left: 304px; top: 440px; width: 248px; height: 272px; box-sizing: border-box; padding: 16px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 6px; text-align: center; background: #DCEAF4; border: 2px solid #1F5F8B; border-radius: 12px; font-size: 14px; line-height: 20px; color: #1F4E70"><svg aria-hidden="true" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#1F5F8B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"></circle><path d="M3 12h18"></path><path d="M12 3c2.8 2.6 4.2 5.6 4.2 9s-1.4 6.4-4.2 9c-2.8-2.6-4.2-5.6-4.2-9s1.4-6.4 4.2-9z"></path><path d="M5 7.5h14M5 16.5h14"></path></svg><span><b style="font-size: 19px; line-height: 26px; color: #164A6E">Interaction cost</b><br>rollout steps, rewards, verifier queries</span></div>
+<div style="position: absolute; left: 672px; top: 440px; width: 376px; height: 272px; box-sizing: border-box; padding: 16px; display: flex; align-items: center; justify-content: center; text-align: center; background: #FFFFFF; border: 1px solid #DDDAD2; border-radius: 12px; font-size: 14px; line-height: 20px; color: #8A8378"><span><b style="font-size: 17px; line-height: 24px; color: #5F5E5A">Agent system, learning</b><br>harness + model</span></div>
+<div style="position: absolute; left: 1168px; top: 440px; width: 320px; height: 64px; box-sizing: border-box; padding: 0 48px 0 16px; display: flex; align-items: center; background: #FAE3C8; border: 2px solid #B45309; border-radius: 12px; font-size: 13px; line-height: 18px; color: #7A3A05"><span><b style="font-size: 16px; line-height: 22px">Rollout inference</b><br>generating trajectories</span></div>
+<div style="position: absolute; left: 1168px; top: 544px; width: 320px; height: 64px; box-sizing: border-box; padding: 0 48px 0 16px; display: flex; align-items: center; background: #FAE3C8; border: 2px solid #B45309; border-radius: 12px; font-size: 13px; line-height: 18px; color: #7A3A05"><span><b style="font-size: 16px; line-height: 22px">Experience</b><br>stored trajectories and rewards</span></div>
+<div style="position: absolute; left: 1168px; top: 648px; width: 320px; height: 64px; box-sizing: border-box; padding: 0 48px 0 16px; display: flex; align-items: center; background: #B45309; border: 2px solid #7A3A05; border-radius: 12px; font-size: 13px; line-height: 18px; color: #FDEBDD"><span><b style="font-size: 19px; line-height: 24px; color: #FFFFFF">Internalize</b><br>weight updates, rewriting code and prompts</span></div>
+<div style="position: absolute; left: 288px; top: 824px; width: 248px; height: 144px; box-sizing: border-box; background: #EEF4F9; border: 1.5px solid #9DBCD2; border-radius: 12px"></div>
+<div style="position: absolute; left: 656px; top: 824px; width: 376px; height: 144px; box-sizing: border-box; background: #FFFFFF; border: 1px solid #E6E3DB; border-radius: 12px"></div>
+<div style="position: absolute; left: 1152px; top: 824px; width: 320px; height: 144px; box-sizing: border-box; background: #FDF1E3; border: 1.5px solid #E2AD7A; border-radius: 12px"></div>
+<div style="position: absolute; left: 296px; top: 816px; width: 248px; height: 144px; box-sizing: border-box; background: #E5EFF6; border: 1.5px solid #5F8FB2; border-radius: 12px"></div>
+<div style="position: absolute; left: 664px; top: 816px; width: 376px; height: 144px; box-sizing: border-box; background: #FFFFFF; border: 1px solid #E0DDD5; border-radius: 12px"></div>
+<div style="position: absolute; left: 1160px; top: 816px; width: 320px; height: 144px; box-sizing: border-box; background: #FBEAD6; border: 1.5px solid #CC8040; border-radius: 12px"></div>
+<div style="position: absolute; left: 304px; top: 808px; width: 248px; height: 144px; box-sizing: border-box; padding: 16px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 6px; text-align: center; background: #DCEAF4; border: 2px solid #1F5F8B; border-radius: 12px; font-size: 14px; line-height: 20px; color: #1F4E70"><svg aria-hidden="true" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#1F5F8B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"></circle><path d="M3 12h18"></path><path d="M12 3c2.8 2.6 4.2 5.6 4.2 9s-1.4 6.4-4.2 9c-2.8-2.6-4.2-5.6-4.2-9s1.4-6.4 4.2-9z"></path><path d="M5 7.5h14M5 16.5h14"></path></svg><span><b style="font-size: 19px; line-height: 26px; color: #164A6E">Interaction cost</b><br>observations, tool calls, document reads</span></div>
+<div style="position: absolute; left: 672px; top: 808px; width: 376px; height: 144px; box-sizing: border-box; padding: 16px; display: flex; align-items: center; justify-content: center; text-align: center; background: #FFFFFF; border: 1px solid #DDDAD2; border-radius: 12px; font-size: 14px; line-height: 20px; color: #8A8378"><span><b style="font-size: 17px; line-height: 24px; color: #5F5E5A">Agent system, deployed</b><br>harness + model</span></div>
+<div style="position: absolute; left: 1168px; top: 808px; width: 320px; height: 144px; box-sizing: border-box; padding: 16px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 6px; text-align: center; background: #FAE3C8; border: 2px solid #B45309; border-radius: 12px; font-size: 14px; line-height: 20px; color: #7A3A05"><svg aria-hidden="true" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#B45309" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="7" rx="1.5"></rect><rect x="3" y="13" width="18" height="7" rx="1.5"></rect><path d="M7 7.5h.01M7 16.5h.01"></path><path d="M11 7.5h6M11 16.5h6"></path></svg><span><b style="font-size: 19px; line-height: 26px; color: #7A3A05">Inference cost</b><br>generated tokens, context, KV cache</span></div>
+<div style="position: absolute; left: 516px; top: 452px; width: 24px; height: 24px; border-radius: 12px; background: #1F5F8B; color: #FFFFFF; font-size: 14px; line-height: 24px; font-weight: 600; text-align: center">$</div>
+<div style="position: absolute; left: 1452px; top: 460px; width: 24px; height: 24px; border-radius: 12px; background: #B45309; color: #FFFFFF; font-size: 14px; line-height: 24px; font-weight: 600; text-align: center">$</div>
+<div style="position: absolute; left: 1452px; top: 564px; width: 24px; height: 24px; border-radius: 12px; background: #B45309; color: #FFFFFF; font-size: 14px; line-height: 24px; font-weight: 600; text-align: center">$</div>
+<div style="position: absolute; left: 1452px; top: 668px; width: 24px; height: 24px; border-radius: 12px; background: #FFFFFF; color: #B45309; font-size: 14px; line-height: 24px; font-weight: 600; text-align: center">$</div>
+<div style="position: absolute; left: 484px; top: 820px; width: 56px; height: 24px; border-radius: 12px; background: #1F5F8B; color: #FFFFFF; font-size: 13px; line-height: 24px; font-weight: 600; text-align: center">$ ×N</div>
+<div style="position: absolute; left: 1420px; top: 820px; width: 56px; height: 24px; border-radius: 12px; background: #B45309; color: #FFFFFF; font-size: 13px; line-height: 24px; font-weight: 600; text-align: center">$ ×N</div>
+<div style="position: absolute; left: 1060px; top: 652px; width: 96px; text-align: center; font-size: 13px; line-height: 16px; font-weight: 600; color: #7A3A05">update</div>
+<div style="position: absolute; left: 876px; top: 752px; width: 220px; font-size: 13px; line-height: 16px; color: #8A8378">deploy the learned system</div>
+<div style="position: absolute; left: 64px; top: 1008px; width: 1424px; height: 1px; background: #DDDAD2"></div>
+<div style="position: absolute; left: 64px; top: 1024px; width: 1424px; font-size: 13px; line-height: 20px; color: #8A8378"><b style="font-size: 16px; color: #1C1C1A">Existing methods, placed where they cut cost</b>   rows and columns match the diagram above</div>
+<div style="position: absolute; left: 80px; top: 1064px; width: 192px; font-size: 13px; line-height: 18px; color: #8A8378"><b style="font-size: 18px; line-height: 24px; color: #1C1C1A">×1</b>  Learning</div>
+<div style="position: absolute; left: 80px; top: 1160px; width: 192px; font-size: 13px; line-height: 18px; color: #8A8378"><b style="font-size: 18px; line-height: 24px; color: #1C1C1A">×N</b>  Deployment</div>
+<div style="position: absolute; left: 80px; top: 1256px; width: 192px; font-size: 13px; line-height: 18px; color: #8A8378"><b style="font-size: 15px; line-height: 24px; color: #1C1C1A">Shift cost</b><br>between cells</div>
+<div style="position: absolute; left: 304px; top: 1064px; width: 248px; display: flex; flex-direction: column; align-items: flex-start; gap: 6px; font-size: 12px; line-height: 16px">
+<span style="padding: 4px 10px; border-radius: 12px; background: #E8F0F7; color: #164A6E">sample-efficient RL</span>
+<span style="padding: 4px 10px; border-radius: 12px; background: #E8F0F7; color: #164A6E">data selection and curricula</span>
+<span style="padding: 4px 10px; border-radius: 12px; background: #E8F0F7; color: #164A6E">cheaper rewards: rules, small verifiers</span>
+</div>
+<div style="position: absolute; left: 672px; top: 1064px; width: 376px; display: flex; flex-direction: column; align-items: flex-start; gap: 6px; font-size: 12px; line-height: 16px">
+<span style="padding: 4px 10px; border-radius: 12px; background: #EFEDE6; color: #3D3C38">better credit assignment</span>
+<span style="padding: 4px 10px; border-radius: 12px; background: #EFEDE6; color: #3D3C38">off-policy and replay reuse</span>
+<span style="padding: 4px 10px; border-radius: 12px; background: #EFEDE6; color: #3D3C38">early stopping and warm starts</span>
+</div>
+<div style="position: absolute; left: 1168px; top: 1064px; width: 320px; display: flex; flex-direction: column; align-items: flex-start; gap: 6px; font-size: 12px; line-height: 16px">
+<span style="padding: 4px 10px; border-radius: 12px; background: #FBEFE2; color: #7A3A05">LoRA and parameter-efficient updates</span>
+<span style="padding: 4px 10px; border-radius: 12px; background: #FBEFE2; color: #7A3A05">asynchronous rollout and training</span>
+<span style="padding: 4px 10px; border-radius: 12px; background: #FBEFE2; color: #7A3A05">mixed precision, sequence packing</span>
+</div>
+<div style="position: absolute; left: 304px; top: 1160px; width: 248px; display: flex; flex-direction: column; align-items: flex-start; gap: 6px; font-size: 12px; line-height: 16px">
+<span style="padding: 4px 10px; border-radius: 12px; background: #E8F0F7; color: #164A6E">adaptive retrieval</span>
+<span style="padding: 4px 10px; border-radius: 12px; background: #E8F0F7; color: #164A6E">tool-call budgets</span>
+<span style="padding: 4px 10px; border-radius: 12px; background: #E8F0F7; color: #164A6E">active perception, look on demand</span>
+</div>
+<div style="position: absolute; left: 672px; top: 1160px; width: 376px; display: flex; flex-direction: column; align-items: flex-start; gap: 6px; font-size: 12px; line-height: 16px">
+<span style="padding: 4px 10px; border-radius: 12px; background: #EFEDE6; color: #3D3C38">context and memory management</span>
+<span style="padding: 4px 10px; border-radius: 12px; background: #EFEDE6; color: #3D3C38">adaptive thinking budgets, early exit</span>
+<span style="padding: 4px 10px; border-radius: 12px; background: #EFEDE6; color: #3D3C38">model routing and cascades</span>
+</div>
+<div style="position: absolute; left: 1168px; top: 1160px; width: 320px; display: flex; flex-direction: column; align-items: flex-start; gap: 6px; font-size: 12px; line-height: 16px">
+<span style="padding: 4px 10px; border-radius: 12px; background: #FBEFE2; color: #7A3A05">quantization, pruning, distillation</span>
+<span style="padding: 4px 10px; border-radius: 12px; background: #FBEFE2; color: #7A3A05">visual and text token compression</span>
+<span style="padding: 4px 10px; border-radius: 12px; background: #FBEFE2; color: #7A3A05">KV-cache reuse, speculative decoding</span>
+</div>
+<div style="position: absolute; left: 304px; top: 1256px; width: 1184px; display: flex; flex-wrap: wrap; align-items: center; gap: 12px; font-size: 13px; line-height: 16px">
+<span style="display: inline-flex; align-items: center; height: 28px; padding: 0 12px; border-radius: 14px; background: #B45309; color: #FFFFFF"><b>Internalize</b>  · per task → once: distilled behavior, skill libraries, self-evolving code</span>
+<span style="display: inline-flex; align-items: center; height: 28px; padding: 0 12px; border-radius: 14px; background: #E8E6DF; color: #3D3C38"><b>Imagine</b>  · interaction → computation: world models, simulators</span>
+<span style="display: inline-flex; align-items: center; height: 28px; padding: 0 12px; border-radius: 14px; background: #E8E6DF; color: #3D3C38"><b>Precompute</b>  · per task → once: indexes, caches, pre-built graphs</span>
+</div>
+</div>
+</div>
+</div>
+<p class="jc-costfig-cap">Where an agent's cost comes from, and how to move it. <a href="/assets/html/cost-framework.html" target="_blank" rel="noopener">View full size</a></p>
+
+<script>
+  (function () {
+    var wrap = document.getElementById("jc-costfig");
+    if (!wrap) return;
+    var inner = wrap.firstElementChild;
+    function fit() {
+      var s = Math.min(1, wrap.clientWidth / 1552);
+      inner.style.transform = "scale(" + s + ")";
+      wrap.style.height = Math.round(1336 * s) + "px";
+    }
+    fit();
+    if (window.ResizeObserver) new ResizeObserver(fit).observe(wrap);
+    else window.addEventListener("resize", fit);
+  })();
+</script>
+
 <div class="jc-flow">
   <a class="jc-step" data-target="rf-eff" href="#rf-eff"><span class="jc-num">01</span><strong>Efficient LLM Agents</strong><small>from SI to RSI</small></a>
   <span class="jc-flow-arrow" aria-hidden="true">→</span>
@@ -148,8 +264,8 @@ My research focuses on **Efficient LLM Agents**, **Agentic Computer Use** and **
         <div class="jc-tags"><span>Coding</span><span>Office</span><span>Visual Creation</span><span>World Models for Embodied AI</span></div>
         <h4>Research Questions</h4>
         <ul>
-          <li><strong>How</strong> do computer-use agents carry over to coding, office work and visual creation, where success is only partly checkable by code?</li>
-          <li><strong>Can</strong> world models generate environments that embodied agents can act in reliably, preserving what must stay unchanged?</li>
+          <li><strong>What</strong> does it cost an agent to finish real work in coding, office and visual-creation software, and how can it reach the same success with fewer interactions, tokens and verifier calls?</li>
+          <li><strong>Can</strong> world models let embodied agents imagine before they act, turning costly real-world interaction into cheaper computation without losing reliability?</li>
         </ul>
         <h4>Representative Works</h4>
         <ul>
