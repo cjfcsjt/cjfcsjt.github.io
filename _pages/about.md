@@ -67,7 +67,6 @@ latest_posts:
   .jc-tags{display:flex;flex-wrap:wrap;gap:.35rem;margin:.1rem 0 .5rem}
   .jc-tags span{font-size:.78rem;padding:.12rem .6rem;border:1px solid var(--global-divider-color);border-radius:999px;color:var(--global-theme-color)}
 
-
   .jc-figure{margin:0}
   .jc-figure svg{display:block;width:100%;height:auto;max-width:520px;margin:0 auto}
   .jc-figure .cf-row{fill:var(--global-text-color);fill-opacity:.05}
@@ -90,7 +89,7 @@ latest_posts:
 
 I am a Ph.D. student at [The Hong Kong Polytechnic University](https://www.polyu.edu.hk/) (PolyU), advised by [Prof. Qing Li](https://www4.comp.polyu.edu.hk/~csqli/) (IEEE Fellow), [Prof. Zhen Lei](http://www.cbsr.ia.ac.cn/users/zlei/) (IEEE Fellow) and [Prof. Zhaoxiang Zhang](https://zhaoxiangzhang.net/). Before that, I received my M.S. in Computer Science from Nanjing University and my B.S. in Software Engineering from Shandong University. I have also been a research intern on the post-training team at [Shanghai AI Laboratory](https://www.shlab.org.cn/) and at Tencent Game AI Lab.
 
-My research focuses on **Efficient LLM Agents**, **Agentic Computer Use** and **Recursive Self-Improvement (RSI)**.
+My research focuses on **Efficient LLM Agents**, **Agentic Computer Use** and **Recursive Self-Improvement (RSI)**. My earlier work focused on **information retrieval**.
 
 <div class="jc-flow">
   <a class="jc-step" data-target="rf-eff" href="#rf-eff"><span class="jc-num">01</span><strong>Efficient LLM Agents</strong><small>from SI to RSI</small></a>
@@ -218,8 +217,6 @@ My research focuses on **Efficient LLM Agents**, **Agentic Computer Use** and **
     });
   })();
 </script>
-
-My earlier work focused on **information retrieval**.
 
 ## experience
 
