@@ -41,7 +41,7 @@ latest_posts:
   .jc-step strong{font-size:.98rem;font-weight:600;line-height:1.2}
   .jc-step small{font-size:.78rem;opacity:.75;line-height:1.25}
   .jc-flow-arrow{align-self:center;font-size:1.3rem;color:var(--global-theme-color)}
-  @media (max-width:760px){.jc-flow{flex-direction:column}.jc-flow-arrow{transform:rotate(90deg);margin:-.2rem 0}}
+  @media (max-width:640px){.jc-flow{flex-direction:column}.jc-flow-arrow{transform:rotate(90deg);margin:-.2rem 0}}
 
   .jc-wrap{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);gap:1.4rem;align-items:start;margin:.6rem 0 1.8rem;font-size:.95rem}
   .jc-left{min-width:0}
@@ -64,6 +64,8 @@ latest_posts:
   .jc-venue{font-size:.8rem;opacity:.75;white-space:nowrap}
   .jc-domain{font-size:.75rem;font-weight:600;text-transform:uppercase;letter-spacing:.04em;opacity:.7;margin:.45rem 0 .2rem}
   .jc-ongoing{opacity:.75;font-style:italic}
+  .jc-tags{display:flex;flex-wrap:wrap;gap:.35rem;margin:.1rem 0 .5rem}
+  .jc-tags span{font-size:.78rem;padding:.12rem .6rem;border:1px solid var(--global-divider-color);border-radius:999px;color:var(--global-theme-color)}
 
   .jc-figure{margin:0}
   .jc-figure svg{display:block;width:100%;height:auto;max-width:440px;margin:0 auto}
@@ -99,87 +101,59 @@ I am a Ph.D. student at [The Hong Kong Polytechnic University](https://www.polyu
 My research focuses on **Efficient LLM Agents**, **Agentic Computer Use** and **Recursive Self-Improvement (RSI)**.
 
 <div class="jc-flow">
-  <a class="jc-step" data-target="rf-rsi" href="#rf-rsi"><span class="jc-num">01</span><strong>Recursive Self-Improvement</strong><small>improve the improver</small></a>
+  <a class="jc-step" data-target="rf-eff" href="#rf-eff"><span class="jc-num">01</span><strong>Efficient LLM Agents</strong><small>from SI to RSI</small></a>
   <span class="jc-flow-arrow" aria-hidden="true">→</span>
-  <a class="jc-step" data-target="rf-code" href="#rf-code"><span class="jc-num">02</span><strong>Code as the Substrate</strong><small>target · evidence · verification</small></a>
+  <a class="jc-step" data-target="rf-cu" href="#rf-cu"><span class="jc-num">02</span><strong>Computer Use</strong><small>GUI · CLI</small></a>
   <span class="jc-flow-arrow" aria-hidden="true">→</span>
-  <a class="jc-step" data-target="rf-cu" href="#rf-cu"><span class="jc-num">03</span><strong>Computer Use</strong><small>GUI agents on real software</small></a>
-  <span class="jc-flow-arrow" aria-hidden="true">→</span>
-  <a class="jc-step" data-target="rf-app" href="#rf-app"><span class="jc-num">04</span><strong>Applications</strong><small>digital world · physical world</small></a>
+  <a class="jc-step" data-target="rf-app" href="#rf-app"><span class="jc-num">03</span><strong>Applications</strong><small>coding · office · visual creation · embodied AI</small></a>
 </div>
 
 <div class="jc-wrap">
   <div class="jc-left">
-    <details class="jc-card" id="rf-rsi" open>
-      <summary><span>Recursive Self-Improvement <small>— improve the improver</small></span></summary>
+    <details class="jc-card" id="rf-eff" open>
+      <summary><span>Efficient LLM Agents <small>— from SI to RSI</small></span></summary>
       <div class="jc-body">
         <h4>Research Questions</h4>
         <ul>
-          <li><strong>What</strong> makes a computer-use agent's self-improvement recursive, rather than a solver updated by a fixed improver?</li>
-          <li><strong>How</strong> can we tell whether an updated improver really makes later rounds of improvement more effective, at the same budget?</li>
+          <li><strong>How</strong> can an agent improve from its own experience while spending compute, observations and supervision only where they matter?</li>
+          <li><strong>How</strong> do we go from self-improvement (SI), where a fixed improver updates the agent, to recursive self-improvement (RSI), where the improver itself gets better, and show the gain at the same budget?</li>
         </ul>
         <h4>Representative Works</h4>
         <ul>
-          <li class="jc-ongoing">Ongoing work on improver-level self-modification for computer-use agents and how to evaluate it.</li>
-        </ul>
-      </div>
-    </details>
-    <details class="jc-card" id="rf-code">
-      <summary><span>Code as the Substrate <small>— target · evidence · verification</small></span></summary>
-      <div class="jc-body">
-        <h4>Research Questions</h4>
-        <ul>
-          <li><strong>Why</strong> does recursion need code: what makes an improver's own mechanism modifiable, its changes attributable, and its results checkable?</li>
-          <li><strong>How</strong> far can executable checks on software state (UI source, DOM, app state) make verifying a new improver affordable, and where must evidence still come from the live environment?</li>
-        </ul>
-        <h4>Representative Works</h4>
-        <ul>
-          <li><a href="https://aclanthology.org/2025.acl-long.510" target="_blank" rel="noopener">AutoGUI: Scaling GUI Grounding with Automatic Functionality Annotations from LLMs</a> <span class="jc-venue">(ACL 2025)</span>: infers what a UI element does from how the UI's source code changes after a simulated interaction.</li>
-          <li class="jc-ongoing">Ongoing work on code as the substrate for recursive self-improvement.</li>
+          <li><a href="/publications/#chen2026warmup">Warm Up with a Rubric, Then Merge: Decoupling Grounding Gains from Reasoning Costs in Vision-Language Models</a> <span class="jc-venue">(EMNLP 2026)</span></li>
+          <li><a href="/publications/#chen2026foveaui">FoveaUI: Foveated On-demand Visual Evidence Acquisition for GUI Grounding</a> <span class="jc-venue">(ACM MM 2026)</span></li>
+          <li class="jc-ongoing">Ongoing work on recursive self-improvement for agents.</li>
         </ul>
       </div>
     </details>
     <details class="jc-card" id="rf-cu">
-      <summary><span>Computer Use <small>— where the loop meets real software</small></span></summary>
+      <summary><span>Computer Use <small>— GUI · CLI</small></span></summary>
       <div class="jc-body">
         <h4>Research Questions</h4>
         <ul>
-          <li><strong>How</strong> does an improvement loop carry over to agents that act on real software, where task success is only partly checkable by code?</li>
-          <li><strong>When</strong> is an extra look at the screen, or an extra round of supervision, worth its cost, and how can an agent spend it only where it is needed?</li>
+          <li><strong>How</strong> can agents ground instructions and act reliably on real software, through graphical interfaces and the command line?</li>
+          <li><strong>How</strong> can GUI data and action spaces scale across platforms without human labels?</li>
         </ul>
         <h4>Representative Works</h4>
-        <p class="jc-domain">GUI grounding &amp; interaction</p>
         <ul>
-          <li><a href="/publications/#chen2026foveaui">FoveaUI: Foveated On-demand Visual Evidence Acquisition for GUI Grounding</a> <span class="jc-venue">(ACM MM 2026)</span></li>
           <li><a href="https://arxiv.org/abs/2509.17328" target="_blank" rel="noopener">UIPro: Unleashing Superior Interaction Capability For GUI Agents</a> <span class="jc-venue">(ICCV 2025)</span></li>
           <li><a href="https://aclanthology.org/2025.acl-long.510" target="_blank" rel="noopener">AutoGUI: Scaling GUI Grounding with Automatic Functionality Annotations from LLMs</a> <span class="jc-venue">(ACL 2025)</span></li>
-        </ul>
-        <p class="jc-domain">Visual perception &amp; reasoning for agents</p>
-        <ul>
-          <li><a href="/publications/#chen2026warmup">Warm Up with a Rubric, Then Merge: Decoupling Grounding Gains from Reasoning Costs in Vision-Language Models</a> <span class="jc-venue">(EMNLP 2026)</span></li>
-          <li><a href="https://aclanthology.org/2025.acl-long.634" target="_blank" rel="noopener">Activation Steering Decoding: Mitigating Hallucination in Large Vision-Language Models through Bidirectional Hidden State Intervention</a> <span class="jc-venue">(ACL 2025)</span></li>
+          <li><a href="/publications/#chen2026foveaui">FoveaUI: Foveated On-demand Visual Evidence Acquisition for GUI Grounding</a> <span class="jc-venue">(ACM MM 2026)</span></li>
         </ul>
       </div>
     </details>
     <details class="jc-card" id="rf-app">
-      <summary><span>Applications <small>— digital world · physical world</small></span></summary>
+      <summary><span>Applications <small>— where agents do real work</small></span></summary>
       <div class="jc-body">
+        <div class="jc-tags"><span>Coding</span><span>Office</span><span>Visual Creation</span><span>World Models for Embodied AI</span></div>
         <h4>Research Questions</h4>
         <ul>
-          <li><strong>How</strong> far does an improvement loop built for software reach in the digital world, on long-horizon tasks such as deep search?</li>
-          <li><strong>What</strong> changes in the physical world, where outcomes cannot be checked by running code and evidence must come from 3D scenes, simulators or real environments?</li>
+          <li><strong>How</strong> do computer-use agents carry over to coding, office work and visual creation, where success is only partly checkable by code?</li>
+          <li><strong>Can</strong> world models generate environments that embodied agents can act in reliably, preserving what must stay unchanged?</li>
         </ul>
         <h4>Representative Works</h4>
         <ul>
-          <li><a href="https://x.com/XGEN_labs/article/2103137462008844442" target="_blank" rel="noopener">Dual Exam: Controlled Evaluation of Multimodal Agents and World Models</a> <span class="jc-venue">(XGEN Labs Tech Report 2026, as core contributor)</span>: agent and world-model tracks across physical, digital, social and scientific tasks.</li>
-        </ul>
-        <p class="jc-domain">Digital world</p>
-        <ul>
-          <li class="jc-ongoing">Ongoing work on agentic RL and self-reflection for long-horizon deep-search agents.</li>
-        </ul>
-        <p class="jc-domain">Physical world</p>
-        <ul>
-          <li class="jc-ongoing">Ongoing work on spatial reasoning in 3D scenes for multimodal models.</li>
+          <li><a href="https://x.com/XGEN_labs/article/2103137462008844442" target="_blank" rel="noopener">Dual Exam: Controlled Evaluation of Multimodal Agents and World Models</a> <span class="jc-venue">(XGEN Labs Tech Report 2026, as core contributor)</span></li>
         </ul>
       </div>
     </details>
