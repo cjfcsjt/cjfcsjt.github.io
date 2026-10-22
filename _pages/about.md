@@ -95,7 +95,7 @@ My research focuses on **Efficient LLM Agents**, **Agentic Computer Use** and **
 <div class="jc-flow">
   <a class="jc-step" data-target="rf-eff" href="#rf-eff"><span class="jc-num">01</span><strong>Efficient LLM Agents</strong><small>from SI to RSI</small></a>
   <span class="jc-flow-arrow" aria-hidden="true">→</span>
-  <a class="jc-step" data-target="rf-cu" href="#rf-cu"><span class="jc-num">02</span><strong>Computer Use</strong><small>GUI · CLI</small></a>
+  <a class="jc-step" data-target="rf-cu" href="#rf-cu"><span class="jc-num">02</span><strong>Computer Use</strong><small>GUI · CLI · coding agents</small></a>
   <span class="jc-flow-arrow" aria-hidden="true">→</span>
   <a class="jc-step" data-target="rf-app" href="#rf-app"><span class="jc-num">03</span><strong>Applications</strong><small>coding · office · visual creation · embodied AI</small></a>
 </div>
@@ -120,12 +120,13 @@ My research focuses on **Efficient LLM Agents**, **Agentic Computer Use** and **
       </div>
     </details>
     <details class="jc-card" id="rf-cu">
-      <summary><span>Computer Use <small>— GUI · CLI</small></span></summary>
+      <summary><span>Computer Use <small>— GUI · CLI · Coding Agents</small></span></summary>
       <div class="jc-body">
         <h4>Research Questions</h4>
         <ul>
           <li><strong>How</strong> can agents ground instructions and act reliably on real software, through graphical interfaces and the command line?</li>
           <li><strong>How</strong> can GUI data and action spaces scale across platforms without human labels?</li>
+          <li><strong>How</strong> can coding agents act through code, writing, running and debugging programs in the terminal, so that a long chain of GUI clicks becomes a few verifiable steps?</li>
         </ul>
         <h4>Representative Works</h4>
         <ul>
