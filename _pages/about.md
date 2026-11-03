@@ -22,7 +22,7 @@ social: false # contact icons are shown under the profile photo instead
 announcements:
   enabled: true # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 7 # leave blank to include all the news in the `_news` folder
+  limit: 8 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
   enabled: false
@@ -114,7 +114,7 @@ My research focuses on **Efficient LLM Agents**, **Agentic Computer Use** and **
         <ul>
           <li><a href="/publications/#chen2026warmup">Warm Up with a Rubric, Then Merge: Decoupling Grounding Gains from Reasoning Costs in Vision-Language Models</a> <span class="jc-venue">(EMNLP 2026)</span><span class="jc-why">Spends supervision where it pays off: a short rubric warm-up captures the grounding gain, then outcome-only RL continues at a fraction of the verifier cost.</span></li>
           <li><a href="/publications/#chen2026foveaui">FoveaUI: Foveated On-demand Visual Evidence Acquisition for GUI Grounding</a> <span class="jc-venue">(ACM MM 2026)</span><span class="jc-why">Spends observation compute where it pays off: the agent requests high-resolution crops only when fine detail is needed, cutting visual tokens while keeping grounding strong.</span></li>
-          <li><a href="https://x.com/XGEN_labs/article/2103137462008844442" target="_blank" rel="noopener">Dual Exam: Controlled Evaluation of Multimodal Agents and World Models</a> <span class="jc-venue">(XGEN Labs Tech Report 2026, as core contributor)</span><span class="jc-why">Its world-model track checks whether generated worlds faithfully realize action effects, a precondition for trading costly real interaction for cheaper simulated experience.</span></li>
+          <li><a href="https://huggingface.co/papers/2610.31066" target="_blank" rel="noopener">Dual Exam: Controlled Evaluation of Multimodal Agents and World Models</a> <span class="jc-venue">(arXiv 2026, as core contributor)</span><span class="jc-why">Its world-model track checks whether generated worlds faithfully realize action effects, a precondition for trading costly real interaction for cheaper simulated experience.</span></li>
           <li class="jc-ongoing">Ongoing work on recursive self-improvement for agents.</li>
         </ul>
       </div>
@@ -133,7 +133,7 @@ My research focuses on **Efficient LLM Agents**, **Agentic Computer Use** and **
           <li><a href="https://arxiv.org/abs/2509.17328" target="_blank" rel="noopener">UIPro: Unleashing Superior Interaction Capability For GUI Agents</a> <span class="jc-venue">(ICCV 2025)</span><span class="jc-why">A generalist GUI agent that acts across platforms by mapping heterogeneous action formats into one shared action space.</span></li>
           <li><a href="https://aclanthology.org/2025.acl-long.510" target="_blank" rel="noopener">AutoGUI: Scaling GUI Grounding with Automatic Functionality Annotations from LLMs</a> <span class="jc-venue">(ACL 2025)</span><span class="jc-why">Scales GUI grounding data without human labels: LLMs infer what each element does from how the interface changes when it is used.</span></li>
           <li><a href="/publications/#chen2026foveaui">FoveaUI: Foveated On-demand Visual Evidence Acquisition for GUI Grounding</a> <span class="jc-venue">(ACM MM 2026)</span><span class="jc-why">Grounds instructions precisely on dense, high-resolution screens by looking closely only at the regions that matter.</span></li>
-          <li><a href="https://x.com/XGEN_labs/article/2103137462008844442" target="_blank" rel="noopener">Dual Exam: Controlled Evaluation of Multimodal Agents and World Models</a> <span class="jc-venue">(XGEN Labs Tech Report 2026, as core contributor)</span><span class="jc-why">Covers digital-world agentic tasks and judges success from execution evidence rather than the agent's own claim of completion.</span></li>
+          <li><a href="https://huggingface.co/papers/2610.31066" target="_blank" rel="noopener">Dual Exam: Controlled Evaluation of Multimodal Agents and World Models</a> <span class="jc-venue">(arXiv 2026, as core contributor)</span><span class="jc-why">Covers digital-world agentic tasks and judges success from execution evidence rather than the agent's own claim of completion.</span></li>
         </ul>
       </div>
     </details>
@@ -148,7 +148,7 @@ My research focuses on **Efficient LLM Agents**, **Agentic Computer Use** and **
         </ul>
         <h4>Representative Works</h4>
         <ul>
-          <li><a href="https://x.com/XGEN_labs/article/2103137462008844442" target="_blank" rel="noopener">Dual Exam: Controlled Evaluation of Multimodal Agents and World Models</a> <span class="jc-venue">(XGEN Labs Tech Report 2026, as core contributor)</span><span class="jc-why">Spans physical, digital, social and scientific tasks, and evaluates world models on their own, the component embodied agents would rely on to imagine before they act.</span></li>
+          <li><a href="https://huggingface.co/papers/2610.31066" target="_blank" rel="noopener">Dual Exam: Controlled Evaluation of Multimodal Agents and World Models</a> <span class="jc-venue">(arXiv 2026, as core contributor)</span><span class="jc-why">Spans physical, digital, social and scientific tasks, and evaluates world models on their own, the component embodied agents would rely on to imagine before they act.</span></li>
         </ul>
       </div>
     </details>
